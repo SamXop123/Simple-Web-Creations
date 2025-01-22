@@ -1,0 +1,97 @@
+body {
+    background-image: url(../Media/Pikachu.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(158, 55, 55);
+}
+
+h1 {
+    font-family: 'Comic Sans MS', 'Cambria', 'Lucida Sans', 'Lucida Sans Regular', Verdana;
+    text-align: center;
+    color:rgb(105, 23, 23);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.card {
+    margin-left: 600px;
+    border: 5px solid rgb(105, 23, 23);
+    height: 470px;
+    width: 300px;
+    background-color: rgb(210, 203, 71);
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+.card img {
+    border: 0;
+    border-radius: 15px;
+    width: 290px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.facts {
+    display: flex;
+    margin-left: 7px;
+}
+
+h6 {
+    font-family: 'Comic Sans MS', 'Cambria', 'Lucida Sans', 'Lucida Sans Regular', Verdana;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: min-content;
+    padding: 2px;
+    margin: 2px;
+}
+
+h2 {
+    margin: 7px;
+    margin-left: 10px;
+    font-family: 'Comic Sans MS', 'Cambria', 'Lucida Sans', 'Lucida Sans Regular', Verdana;
+}
+
+.divide {
+    width: 90%;
+    border: 2px solid rgb(105, 23, 23);
+}
+
+.context {
+    margin: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bottom {
+    margin: 2px;
+    margin-top: 7px;
+    margin-left: 75px;
+    margin-bottom: 5px;
+    width: 50%;
+    border: 2px solid rgb(105, 23, 23);
+}
+
+.readmore {
+    background-color: #e3e328; 
+    color: #124983;
+    border: 2px solid rgb(105, 23, 23);
+    border-radius: 20px; 
+    padding: 10px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s, transform 0.2s;
+    margin: 7px;
+    margin-left: 98px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
+  }
+
+.readmore:hover {
+    background-color: #d4e8ff; 
+    transform: scale(1.05); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
+
+}
+
