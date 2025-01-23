@@ -1,6 +1,8 @@
 # Simple-Web-Creations 🌟 
 Welcome to my collection of basic webpages! This repository is all about learning and experimenting with **HTML** and **CSS**. Each project here represents a fun and creative idea brought to life through code. 🚀
 
+Use the following link to navigate to different webpages! <br>
+https://samxop123.github.io/Simple-Web-Creations/{folder_name}/{html_template}
 
 <!-- ## 🎨 What's Inside?
 
