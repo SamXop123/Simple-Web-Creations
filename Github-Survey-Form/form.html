@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+
+    <link rel="icon" href="icon.jpg">
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+
+    <div class="head">
+        <h1 id="title">Github Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform.</p>
+    </div>
+
+    <form id="survey-form">
+
+        <label for="name" id="name-label">Name</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+
+        <label for="email" id="email-label">Email</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your Email" required><br>
+
+        <label for="number" id="age-label">Age</label><br>
+        <input type="number" id="number" min="0" max="120" name="age" placeholder="Enter your age" required><br>
+        <hr>
+
+        <label for="dropdown" id="dropdown-label">Which option best describes your current role?</label><br>
+        <select id="dropdown" name="role" required>
+            <option disabled selected value>Select an option</option>
+            <option value="student">Student</option>
+            <option value="developer">Developer</option>
+            <option value="data-scientist">Data Scientist</option>
+            <option value="devops-engineer">DevOps Engineer</option>
+            <option value="project-manager">Project Manager</option>
+            <option value="designer">Designer</option>
+            <option value="qa-engineer">QA Engineer</option>
+            <option value="researcher">Researcher</option>
+            <option value="educator">Educator</option>
+            <option value="open-source-contributor">Open Source Contributor</option>
+            <option value="prefer-not-to-say">Prefer not to say</option>
+            <option value="other">Other</option>
+        </select>
+        <br><br>
+
+        <label for="recommend">Would you recommend GitHub to a friend?</label><br>
+
+        <input type="radio" class="radio" id="recommend-yes" name="recommend" value="yes" required>
+        <label for="recommend-yes">Definitely</label><br>
+
+        <input type="radio" class="radio" id="recommend-maybe" name="recommend" value="maybe" required>
+        <label for="recommend-maybe">Maybe</label><br>
+
+        <input type="radio" class="radio" id="recommend-no" name="recommend" value="no" required>
+        <label for="recommend-no">No</label>
+        <br>
+        <br>
+
+        <label for="dropdown" id="dropdown-label">What is your favorite feature of Github?</label><br>
+        <select id="dropdown" name="role" required>
+            <option disabled selected value>Select an option</option>
+            <option value="storage">Storage</option>
+            <option value="open-source">Open source</option>
+            <option value="collaboration">Collaboration</option>
+            <option value="project">Project Management</option>
+            <option value="version">Version Control</option>
+            <option value="version">CI/CD</option>
+            <option value="version">Documentation</option>
+            <option value="version">Review/Issue Tracking</option>
+            <option value="other">Other</option>
+        </select><br>
+        <br>
+        <hr><br>
+
+        <label for="response">What would you like to see improved?</label>(Check all that apply) <br>
+
+        <input type="checkbox" class="checking" id="response1" name="response" value="1">
+        <label for="response1">User Interface</label><br>
+
+        <input type="checkbox" class="checking" id="response2" name="response" value="2">
+        <label for="response2">Performance</label><br>
+
+        <input type="checkbox" class="checking" id="response3" name="response" value="3">
+        <label for="response3">Accessibility</label><br>
+
+        <input type="checkbox" class="checking" id="response4" name="response" value="4">
+        <label for="response4">Security</label><br>
+
+        <input type="checkbox" class="checking" id="response5" name="response" value="5">
+        <label for="response5">Mobile Experience</label><br>
+
+        <input type="checkbox" class="checking" id="response6" name="response" value="6">
+        <label for="response6">Collaboration Tools</label><br>
+
+        <input type="checkbox" class="checking" id="response7" name="response" value="7">
+        <label for="response7">Customization</label><br>
+        <br>
+        <hr><br>
+
+        <label for="comments">Any comments or suggestions?</label><br>
+        <textarea placeholder="Enter your comments here..."></textarea>
+        <br><br>
+
+        <button type="submit" id="submit">Submit</button>
+        <br><br>
+    </form>
+    <br><br><br><br>
+
+    <script src="form.js"></script>
+
+</body>
+
+</html>
