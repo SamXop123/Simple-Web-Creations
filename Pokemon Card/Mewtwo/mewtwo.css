@@ -1,0 +1,253 @@
+body {
+    background-image: url(./PokemonMedia/dark.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(72, 27, 131);
+}
+
+h1 {
+    font-family: 'Comic Sans MS', 'Cambria', 'Lucida Sans', 'Lucida Sans Regular', Verdana;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(214, 80, 255);
+}
+
+.card {
+    margin-left: 600px;
+    height: 460px;
+    width: 300px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+.tophead {
+    position: relative;
+    bottom: 445px;
+    display: flex;
+    z-index: 1;
+}
+
+.headtext {
+    margin: 4px;
+    margin-left: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana;
+    color: white;
+    font-size: large;
+    text-shadow: 2px 1px 2px yellow;
+    letter-spacing: 0.3px;
+}
+
+.facts {
+    margin-left: 7px;
+    /* display: inline; */
+}
+
+h6 {
+    font-family: 'Forte', 'Cambria', 'Lucida Sans', 'Lucida Sans Regular', Verdana;
+    font-size: small;
+    letter-spacing: 1px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px 20px 10px 30px;
+    width: min-content;
+    padding: 3px;
+    margin: 2.5px;
+    margin-right: 0;
+    color: white;
+}
+
+h3 {
+    margin-top: auto;
+    margin-left: 34px;
+    margin-right: 3px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    color: white;
+    text-shadow: 2px 1px 2px rgb(125, 125, 33);
+}
+
+.hp {
+    font-size: larger;
+    margin: auto;
+    margin-right: 4px;
+    margin-left: 0px;
+    margin-top: 5px;
+    color: white;
+    text-shadow: 2px 1px 3px yellow;
+}
+
+.circle {
+    border: 8px solid rgb(175, 55, 208);
+    border-radius: 50px;
+    width: 8px;
+    height: 8px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    margin-top: 2px;
+}
+
+.card img {
+    border: 0;
+    border-radius: 15px;
+    width: 270px;
+    margin-left: 5px;
+    margin-top: 5px;
+    object-fit: cover;
+    border: 5px solid rgb(53, 7, 74);
+    padding: 5px;
+}
+
+.description {
+    position: relative;
+    bottom: 255px;
+    background: black;
+    height: 200px;
+    width: 264px;
+    opacity: 50%;
+    margin: auto;
+    border: 0;
+    border-radius: 50px 50px 0 0;
+    z-index: 1;
+}
+
+.desc_facts {
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    top: 15px;
+    left: 15px;
+}
+
+.ability {
+    margin-left: auto;
+    font-family: 'Eras ITC', Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 6px;
+    border-radius: 20px 5px;
+    width: min-content;
+    padding: 3px;
+    margin: 2.5px;
+    margin-right: 0;
+}
+
+.recover {
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana;
+    margin: 4px;
+    margin-left: 10px;
+    letter-spacing: 0.3px;
+}
+
+.recover_desc {
+    position: absolute;
+    color: white;
+    top: 35px;
+    font-size: x-small;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.slash {
+    position: absolute;
+    top: 55px;
+    width: 150px;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana;
+    margin: 4px;
+    margin-left: 72px;
+    letter-spacing: 0.3px;
+}
+
+.slash_desc {
+    position: absolute;
+    color: white;
+    top: 85px;
+    font-size: x-small;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.divide {
+    position: absolute;
+    top: 115px;
+    color: white;
+    width: 90%;
+    border: 2px solid rgb(105, 23, 23);
+    margin-left: 15px;
+    z-index: 2;
+}
+
+.dark_gx {
+    position: absolute;
+    top: 130px;
+    margin-left: 30px;
+    width: 200px;
+    height: 20px;
+    border: 2px solid white;
+    background-color: black;
+    z-index: 3;
+}
+
+.nova {
+    position: absolute;
+    margin: auto;
+    margin-top: -6px;
+    margin-left: 44px;
+    font-size: large;
+    font-family: 'Sriracha', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 3;
+}
+
+.gx_attack {
+    position: absolute;
+    color: white;
+    top: 150px;
+    font-size: x-small;
+    margin-top: 9px;
+    margin-left: 10px;
+    margin-right: 8px;
+}
+
+.g {
+    position: absolute;
+    width: 20px;
+    top: 345px;
+    left: 835px;
+    z-index: 2;
+}
+
+.X {
+    position: absolute;
+    width: 40px;
+    top: 340px;
+    left: 840px;
+}
+
+/*
+Styling for button (if want to implement in future):
+
+.readmore {
+    background-color: #e3e328; 
+    color: #124983;
+    border: 2px solid rgb(105, 23, 23);
+    border-radius: 20px; 
+    padding: 10px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s, transform 0.2s;
+    margin: 7px;
+    margin-left: 98px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
+  }
+
+.readmore:hover {
+    background-color: #d4e8ff; 
+    transform: scale(1.05); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
+
+}
+ */
