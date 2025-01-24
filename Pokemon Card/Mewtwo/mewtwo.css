@@ -1,3 +1,46 @@
+
+@font-face {
+    font-family: 'Forte';
+    src: url('forte-webfont.woff2') format('woff2'),
+         url('forte-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Lucida Sans';
+    src: url('lsans-webfont.woff2') format('woff2'),
+         url('lsans-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eras ITC';
+    src: url('erasbd-webfont.woff2') format('woff2'),
+         url('erasbd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sriracha';
+    src: url('sriracha-regular-webfont.woff2') format('woff2'),
+         url('sriracha-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Comic Sans MS';
+    src: url('comic-webfont.woff2') format('woff2'),
+         url('comic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body {
     background-image: url(dark.gif);
     background-repeat: no-repeat;
