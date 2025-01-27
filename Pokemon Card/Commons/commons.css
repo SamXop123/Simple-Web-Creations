@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Inconsolata:wght@200..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: gray;
+    background-image: url("./PokemonMedia/download\ \(2\).jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    font-family: 'Bowlby One SC';
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 1.5px;
+    padding: 40px;
+    border-bottom: 4px solid yellow;
+    opacity: 75%;
+}
+
+.divider {
+    border: 2.5px solid yellow;
+    margin-top: 10px;
+}
+
+.allCards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    width: 80vw;
+    height: 1000px;
+}
+
+.card{
+    background-color: white;
+    width: 210px; 
+    border-radius: 10px;
+    padding: 0 0 34px 0;
+    margin: 15px;
+    height: 320px;
+    margin-bottom: 0px;
+}
+
+
+.snorlax {
+    background-color: rgb(163, 207, 220);
+}
+.charizard {
+    background-color: rgb(224, 176, 176);
+}
+.blastoise {
+    background-color: rgb(174, 227, 244);
+}
+.venusaur {
+    background-color: rgb(200, 248, 128);
+}
+.electabuzz {
+    background-color: rgb(247, 247, 180);
+}
+.lapras {
+    background-color: rgb(193, 222, 255);
+}
+
+
+.card:hover {
+    background-color: rgb(222, 222, 222);
+    cursor: pointer;
+}
+
+.image{
+    padding: 5px;
+}
+
+.image img{
+    border-radius: 7px;
+    width: 200px;
+}
+
+.content{
+    padding: 7px 13px; 
+    font-family: 'Poppins', sans-serif;
+}
+
+.content p{
+    font-size: 9px;
+    color: gray;
+}
+
+.capsules{
+    padding: 0 28px 0 14px;
+}
+
+.capsules span{
+    border: 1px solid gray;
+    padding: 0px 6px;
+    border-radius: 7px;
+    font-size: 8px;
+    font-family: 'Baloo Bhai 2', sans-serif; 
+}
+
+.button{
+    text-align: center;
+}
+
+.button button{
+    padding: 7px 15px;
+    border-radius: 15px;
+    background-color: rgb(216, 236, 253);
+    color: rgb(14, 150, 234);
+    font-size: 10px;
+    margin-top: 7px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button button:hover{
+    background-color: rgb(194, 225, 246);
+    color: rgb(10, 136, 214);
+}
+
