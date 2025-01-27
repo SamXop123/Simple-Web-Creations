@@ -69,6 +69,18 @@ h1 {
 .lapras {
     background-color: rgb(193, 222, 255);
 }
+.infernape {
+    background-color: rgb(217, 217, 146);
+}
+.slaking {
+    background-color: bisque;
+}
+.alakazam {
+    background-color: rgb(212, 172, 244);
+}
+.dragonite {
+    background-color: rgb(150, 235, 220);
+}
 
 
 .card:hover {
