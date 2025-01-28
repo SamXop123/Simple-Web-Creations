@@ -125,3 +125,7 @@ nav {
 .requirements {
     font-family: 'Winter Minie', Tahoma;
 }
+
+iframe {
+    margin: 30px auto;
+}
