@@ -89,3 +89,14 @@ nav {
     color: blue;
     background-color: white;
 }
+
+.game-info {
+    font-family: 'Berlin Sans FB', 'Inconsolata', Georgia, 'Times New Roman', Times, serif;
+    margin: 0 40px;
+    /* padding: 0 20px; */
+}
+
+.game-image {
+    width: 900px;
+    border: 2px solid rgb(127, 30, 237);
+}
