@@ -95,6 +95,12 @@ nav {
     font-family: 'Chatlong', 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.author {
+    font-size: xx-small;
+    margin-top: -15px;
+    font-family: 'JetBrains Mono', 'Consolas', 'Cambria';
+}
+
 .divider {
     border-bottom: 1px solid #888989;
     margin: 2px auto;
