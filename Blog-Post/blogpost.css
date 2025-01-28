@@ -110,7 +110,6 @@ nav {
 .game-info {
     font-family: 'Berlin Sans FB', 'Inconsolata', Georgia, 'Times New Roman', Times, serif;
     margin: 20px 40px;
-    
     /* padding: 0 20px; */
 }
 
@@ -119,3 +118,10 @@ nav {
     border: 2px solid rgb(127, 30, 237);
 }
 
+.second-head {
+    font-family: 'LEMON MILK', 'Leelawadee', Tahoma;
+}
+
+.requirements {
+    font-family: 'Winter Minie', Tahoma;
+}
