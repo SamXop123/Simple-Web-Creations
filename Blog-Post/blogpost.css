@@ -2,12 +2,10 @@ body {
     background-image: url('download.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start; 
     height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
+    text-align: center; /* Center content horizontally */
 }
 
 nav {
@@ -17,7 +15,7 @@ nav {
     display: flex;
     justify-content: space-between; /* Space between logo and search bar */
     align-items: center;
-    margin-top: 0px; 
+    margin: 20px auto 0 auto; /* Center nav horizontally and add top margin */
 }
 
 .logo {
@@ -46,10 +44,20 @@ nav {
     border-radius: 0 4px 4px 0;
     background-color: #fff;
     cursor: pointer;
-    margin-right: 10px;
 }
 
 .search-icon {
     width: 16px;
     height: 16px;
+}
+
+.main {
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    width: 60vw;
+}
+
+.top {
+    background-color: blue;
 }
