@@ -109,7 +109,8 @@ nav {
 
 .game-info {
     font-family: 'Berlin Sans FB', 'Inconsolata', Georgia, 'Times New Roman', Times, serif;
-    margin: 0 40px;
+    margin: 20px 40px;
+    
     /* padding: 0 20px; */
 }
 
