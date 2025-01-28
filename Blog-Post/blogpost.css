@@ -53,11 +53,39 @@ nav {
 
 .main {
     margin: auto;
-    margin-top: 20px;
+    margin-top: 10px;
     background-color: white;
     width: 60vw;
 }
 
 .top {
     background-color: blue;
+    height: 50px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    color: white;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.nav-links a:hover {
+    transition: 0.3s ease;
+    color: blue;
+    background-color: white;
 }
