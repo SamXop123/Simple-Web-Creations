@@ -80,14 +80,25 @@ nav {
 .nav-links a {
     text-decoration: none;
     color: white;
-    padding: 10px;
+    padding: 10px 30px;
     border-radius: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .nav-links a:hover {
-    transition: 0.3s ease;
+    transition: 0.4s ease;
     color: blue;
     background-color: white;
+}
+
+.post-title {
+    font-family: 'Chatlong', 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.divider {
+    border-bottom: 1px solid #888989;
+    margin: 2px auto;
+    width: 50vw;
 }
 
 .game-info {
