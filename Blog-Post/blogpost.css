@@ -133,3 +133,14 @@ iframe {
 #launcher-error {
     margin: 15px 200px;
 }
+
+.sub-head {
+    font-family: 'LEMON MILK', 'Gill Sans MT';
+    text-decoration: underline;
+}
+
+#download-link {
+    text-decoration: none;
+    font-family: 'JetBrains Mono', 'Inconsolata', 'Verdana', '';
+}
+
