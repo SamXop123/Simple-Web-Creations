@@ -52,11 +52,11 @@ nav {
 }
 
 .main {
-    margin: auto;
-    margin-top: 10px;
+    /* margin: auto; */
+    margin: 10px auto 0px auto;
     background-color: white;
     width: 60vw;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .top {
@@ -163,5 +163,14 @@ iframe {
     font-family: 'Sunday Milk', 'Winter Minie';
     margin: -10px auto;
     color:rgb(72, 15, 100);
-    
+    letter-spacing: 1.5px;
+}
+
+
+footer {
+    /* margin: auto; */
+    background-color: rgb(46, 46, 46);
+    color: white;
+    width: 60vw;
+    margin: 0px auto;
 }
