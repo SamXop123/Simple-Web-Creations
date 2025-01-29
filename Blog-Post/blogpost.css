@@ -56,6 +56,7 @@ nav {
     margin-top: 10px;
     background-color: white;
     width: 60vw;
+    margin-bottom: 20px;
 }
 
 .top {
@@ -139,8 +140,28 @@ iframe {
     text-decoration: underline;
 }
 
-#download-link {
+.download-link {
     text-decoration: none;
     font-family: 'JetBrains Mono', 'Inconsolata', 'Verdana', '';
+    padding: 5px;
+    border: 0;
+    border-radius: 20px;
 }
 
+.download-link:hover {
+    background-color: #888989;
+    color: orange;
+    transition: 0.2s;
+}
+
+#sub-sub-head {
+    font-family: 'Monotype Corsiva', 'Segoe Print', 'Sriracha';
+    margin: auto;
+}
+
+#channel-link {
+    font-family: 'Sunday Milk', 'Winter Minie';
+    margin: -10px auto;
+    color:rgb(72, 15, 100);
+    
+}
