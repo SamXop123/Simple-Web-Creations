@@ -168,15 +168,31 @@ iframe {
 
 
 footer {
-    /* margin: auto; */
     background-color: rgb(46, 46, 46);
     color: white;
     width: 60vw;
     margin: 0px auto;
 }
 
-.post1, .post2, .post3, .post4 {
+.featured-title {
+    font-family: 'Comic Sans MS';
+    /* text-align: left; */
+    margin: 15px;
+    padding-top: 20px;
+}
+
+.posts {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 200px;
 }
 
 .post-img {
@@ -184,7 +200,27 @@ footer {
     border: 1px solid red;
 }
 
+.post-content {
+    text-align: center;
+}
+
+.post-title {
+    font-family: 'Century Gothic', 'Corbel', 'Bungee Spice';
+    font-size: medium;
+    margin: 10px 0 5px 0;
+}
+
 .post-desc {
-    font-family: 'Bungee Spice';
+    font-family: 'Corbel', 'Bungee Spice';
+    font-size: small;
+    margin: 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #888989;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
     font-size: small;
 }
