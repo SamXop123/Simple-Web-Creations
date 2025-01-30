@@ -174,3 +174,17 @@ footer {
     width: 60vw;
     margin: 0px auto;
 }
+
+.post1, .post2, .post3, .post4 {
+    display: flex;
+}
+
+.post-img {
+    width: 150px;
+    border: 1px solid red;
+}
+
+.post-desc {
+    font-family: 'Bungee Spice';
+    font-size: small;
+}
