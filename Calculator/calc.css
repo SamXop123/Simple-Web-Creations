@@ -5,7 +5,14 @@ body {
 }
 
 .container {
-    width: 200px;
+    width: 350px;
     height: 500px;
-    background-color: rgb(15, 10, 19);
+    background-color: rgb(8, 1, 14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 90px;
+    border: 5px solid black;
+    border-radius: 5px;
 }
