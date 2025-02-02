@@ -1,6 +1,6 @@
 # Calculator
 
-This is a simple web-based calculator application. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
+This is a simple web-based calculator design. It is just a visual representation of the calculator and doesn't perform any operation currently.
 
 ## Technologies Used
 
