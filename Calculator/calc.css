@@ -44,6 +44,17 @@ body {
     background-color: rgb(37, 35, 35);
 }
 
+
 #equal {
     background-color: rgb(62, 142, 115);
+}
+
+.cell p {
+    margin: 20px 33px;
+    font-size: 16px; 
+    font-family: 'Chatlong', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.cell img {
+    margin: 10px 25px;
 }
