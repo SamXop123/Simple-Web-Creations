@@ -6,8 +6,8 @@ body {
  h1 {
     font-family: 'Franklin Gothic', 'Times New Roman', Times, serif;
     color: white;
-    margin: 0 38vw;
     font-size: 60px;
+    text-align: center;
  }
 
 .container {
