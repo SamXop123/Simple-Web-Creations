@@ -1,0 +1,11 @@
+body {
+    background-image: url(dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 200px;
+    height: 500px;
+    background-color: rgb(15, 10, 19);
+}
