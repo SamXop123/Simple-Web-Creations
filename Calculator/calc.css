@@ -1,3 +1,12 @@
+
+@font-face {
+    font-family: 'Chatlong';
+    src: url('chatlong-webfont.woff2') format('woff2'),
+         url('chatlong-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-image: url(dark.jpg);
     background-repeat: no-repeat;
