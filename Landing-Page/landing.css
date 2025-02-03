@@ -9,12 +9,14 @@ body {
 nav {
     position: fixed;
     top: 0;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     width: 80%;    
     z-index: 1000;
     border-radius: 30px;
     padding: 10px 0;
+    margin: 10px 0;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -38,9 +40,15 @@ nav {
 .logo {
     width: 100px;
     border-radius: 20px;
+    margin: 0 10px;
 }
 
-.test {
-    background-color: #9198e5;
+.title {
     
 }
+
+/* .test {
+    background-color: #9198e5;
+    width: 50px;
+    height: 500px;
+} */
