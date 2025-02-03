@@ -1,6 +1,46 @@
+
 body {
     background: linear-gradient(#e66465, #9198e5);
     background-repeat: no-repeat;
     background-size: contain;
-    height: 100vh;
+    height:97.6vh;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 80%;    
+    z-index: 1000;
+    border-radius: 30px;
+    padding: 10px 0;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+  
+.glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.logoContainer {
+    display: flex;
+}
+
+.logo {
+    width: 100px;
+    border-radius: 20px;
+}
+
+.test {
+    background-color: #9198e5;
+    
 }
