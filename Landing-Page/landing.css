@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inconsolata:wght@200..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     background: linear-gradient(#e66465, #9198e5);
     background-repeat: no-repeat;
@@ -44,8 +46,29 @@ nav {
 }
 
 .title {
-    
+    font-family: 'Bowlby One SC', 'Roboto', 'Helvetica', 'Gill Sans MT';
+    color: rgb(255, 233, 233);
+    letter-spacing: 2px;
 }
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 10px;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+
+
+
+
+
 
 /* .test {
     background-color: #9198e5;
