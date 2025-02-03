@@ -14,6 +14,7 @@ nav {
     left: 50%;
     transform: translateX(-50%);
     display: flex;
+    justify-content: space-between; 
     width: 80%;    
     z-index: 1000;
     border-radius: 30px;
@@ -37,6 +38,8 @@ nav {
 
 .logoContainer {
     display: flex;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .logo {
@@ -46,16 +49,16 @@ nav {
 }
 
 .title {
-    font-family: 'Bowlby One SC', 'Roboto', 'Helvetica', 'Gill Sans MT';
+    font-family: 'Bowlby One SC', 'Roboto', 'Helvetica', 'Gill Sans MT', sans-serif;
     color: rgb(255, 233, 233);
     letter-spacing: 2px;
 }
 
-.navbar ul {
+ul {
     display: flex;
 }
 
-.navbar ul li {
+li {
     margin: 10px;
     list-style: none;
 }
@@ -64,8 +67,17 @@ li a {
     text-decoration: none;
 }
 
+.user {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
 
-
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex: 1; /* Takes up remaining space to center the navbar */
+}
 
 
 
