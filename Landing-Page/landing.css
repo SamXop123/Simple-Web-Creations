@@ -65,6 +65,19 @@ li {
 
 li a {
     text-decoration: none;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    background-color : rgb(88, 21, 21);
+    font-family: 'Gill Sans MT', 'Courier New', Courier, monospace;
+}
+
+a:hover {
+     cursor: pointer; 
+     background-color: white;
+     transition: 0.5s ease;
+     color: black;
 }
 
 .user {
@@ -76,7 +89,7 @@ li a {
 .navbar {
     display: flex;
     justify-content: center;
-    flex: 1; /* Takes up remaining space to center the navbar */
+    flex: 1;
 }
 
 
