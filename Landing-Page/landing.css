@@ -103,6 +103,11 @@ a:hover {
     padding-left: 20px; /* Optional: add some padding to the left */
 }
 
+.text-area {
+    width: 550px;
+    margin: 0px 50px;
+}
+
 h2 {
     font-family: 'Montserrat';
     margin: 10px 10px;
@@ -113,10 +118,18 @@ h2 {
     background: linear-gradient(to right, rgb(25, 89, 208), blue, darkblue);
     -webkit-background-clip: text;
     color: transparent;
-    margin: 10px 0;
+    margin: 10px 10px;
+}
+
+p {
+    margin: 10px 15px;
 }
 
 
+
+.mainImg {
+   border-radius: 90px 10px 10px 90px;
+}
 
 
 
