@@ -96,11 +96,12 @@ a:hover {
 .main {
     display: flex;
     flex-direction: row;
-    align-items: flex-start; /* Align items to the left */
+    align-items: flex-start;
     justify-content: flex-start;
-    text-align: left; /* Align text to the left */
-    margin-top: 250px; /* Adjust as needed to avoid overlap with the navbar */
-    padding-left: 20px; /* Optional: add some padding to the left */
+    text-align: left;
+    margin-top: 200px; 
+    padding-left: 20px;
+    margin-left: 72px;
 }
 
 .text-area {
@@ -131,20 +132,35 @@ form {
 }
 
 input {
-    width: 150px;
+    width: 175px;
     height: 25px;
     margin: 5px 20px;
     padding-left: 15px;
     border-radius: 20px;
+    border: 2px solid white;
 }
 
 .form-button {
     width: 75px;
-    height: 25px;
-    margin: 5px 20px;
-    padding-left: 5px;
+    height: 30px;
+    margin: 10px 22px;
+    margin-bottom: 30px;
+    padding: 4px 5px;
     border-radius: 20px;
-    background-color: rgb(89, 89, 255);
+    background: linear-gradient(#04baf6, #009eeb, #0863dc);  /* rgb(89, 89, 255)  */
+    border: 2px solid #009eeb; 
+    font-family: 'Inconsolata';
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.webLink {
+    text-decoration: none;
+    margin: 25px;
+    color: rgb(68, 68, 68);
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
 }
 
 .mainImg {
