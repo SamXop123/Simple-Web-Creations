@@ -93,6 +93,31 @@ a:hover {
 }
 
 
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    justify-content: flex-start;
+    text-align: left; /* Align text to the left */
+    margin-top: 250px; /* Adjust as needed to avoid overlap with the navbar */
+    padding-left: 20px; /* Optional: add some padding to the left */
+}
+
+h2 {
+    font-family: 'Montserrat';
+    margin: 10px 10px;
+    font-size: 55px;
+}
+
+.coloured {
+    background: linear-gradient(to right, rgb(25, 89, 208), blue, darkblue);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin: 10px 0;
+}
+
+
+
 
 
 /* .test {
