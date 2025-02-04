@@ -116,14 +116,23 @@ li .menu-buttons {
     align-items: flex-start;
     justify-content: flex-start;
     text-align: left;
-    margin-top: 200px; 
+    margin-top: 180px; 
     padding-left: 20px;
     margin-left: 72px;
 }
 
 .text-area {
     width: 550px;
-    margin: 0px 50px;
+    margin: 0px 45px;
+    padding: 50px 50px 40px 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.text-area:hover {
+    cursor: pointer;
+    margin: 0px 40px 0px 60px;
+    padding: 55px 50px 50px 40px;
+    transition: 0.3s ease-in-out;
 }
 
 h2 {
@@ -146,6 +155,7 @@ p {
 form {
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
 }
 
 input {
