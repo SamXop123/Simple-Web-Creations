@@ -95,7 +95,7 @@ a:hover {
 
 .main {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start; /* Align items to the left */
     justify-content: flex-start;
     text-align: left; /* Align text to the left */
@@ -125,10 +125,31 @@ p {
     margin: 10px 15px;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+}
 
+input {
+    width: 150px;
+    height: 25px;
+    margin: 5px 20px;
+    padding-left: 15px;
+    border-radius: 20px;
+}
+
+.form-button {
+    width: 75px;
+    height: 25px;
+    margin: 5px 20px;
+    padding-left: 5px;
+    border-radius: 20px;
+    background-color: rgb(89, 89, 255);
+}
 
 .mainImg {
-   border-radius: 90px 10px 10px 90px;
+   border-radius: 50px 200px 40px 150px;
+   width: 600px;
 }
 
 
