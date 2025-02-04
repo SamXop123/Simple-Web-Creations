@@ -63,7 +63,7 @@ li {
     list-style: none;
 }
 
-li a {
+li .menu-buttons {
     text-decoration: none;
     border: 3px solid white;
     border-radius: 20px;
@@ -73,7 +73,7 @@ li a {
     font-family: 'Gill Sans MT', 'Courier New', Courier, monospace;
 }
 
-a:hover {
+.menu-buttons:hover {
      cursor: pointer; 
      background-color: white;
      transition: 0.5s ease;
@@ -159,8 +159,16 @@ input {
     margin: 25px;
     color: rgb(68, 68, 68);
     font-weight: 700;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-    
+    font-family: 'JetBrains Mono', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 0.3s ease-out;
+}
+
+.webLink:hover {
+    border-radius: 20px;
+    transition: 0.3s ease-out;
+    background-color: whitesmoke;
+    color: blue;
+    padding: 5px 10px;
 }
 
 .mainImg {
