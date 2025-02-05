@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(pink,blueviolet, purple);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    height: 147vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav {
+    width: 95vw;
+    height: 100px;
+    background-image: linear-gradient(to right, violet, purple, rgb(47, 9, 72));
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.bigbox {
+    height: 700px;
+    width: 85vw;
+    background-color: darkorchid;
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    border-radius: 40px;
+}
+
+.smallbox {
+    width: 27vw;
+    height: 460px;
+    background-color: rgb(136, 30, 185);
+    margin: 0 55px;
+    border: 2px solid white;
+    border-radius: 40px;
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.4);
+}
+
+
+.smallbox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+.smallbox label {
+    position: relative;
+    left: 150px;
+    top: 0px;
+    margin-top: 10px;
+    color: white;
+    font-size: 1.2em;
+}
+
+#label1 {
+    position: relative;
+    left: 85px;
+    top: 0px;
+}
+
+.titlebox {
+    width: 60vw;
+    height: 100px;
+    background-color: rgb(136, 30, 185);
+    border-top: 2px solid white;
+    border-radius: 40px; 
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.4);
+    margin: 60px auto;
+    margin-top: 20px;
+}
+
+
+h2 {
+    display: inline-block;
+    position: relative;
+    padding: 20px;
+    font-family: 'Inconsolata', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    color: pink;
+    background-image: linear-gradient(to right, rgb(255, 170, 64), rgb(156, 64, 255), rgb(255, 170, 64));
+    background-clip: text;
+    background-size: 300% 100%;
+    animation: gradient 10s linear infinite;
+    -webkit-background-clip: text; /* For Safari */
+    color: transparent; /* Move this to the end to ensure it takes effect */
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+footer {
+    width: 95vw;
+    height: 100px;
+    background-color: rgb(195, 110, 232);
+    margin: 0 auto;
+    border-radius: 20px 20px 0 0;
+}
