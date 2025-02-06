@@ -130,8 +130,8 @@ li .menu-buttons {
 
 .text-area:hover {
     cursor: pointer;
-    margin: 0px 40px 0px 60px;
-    padding: 55px 50px 50px 40px;
+    margin: 0px 40px 0px 50px;
+    padding: 55px 50px 40px 25px;
     transition: 0.3s ease-in-out;
 }
 
