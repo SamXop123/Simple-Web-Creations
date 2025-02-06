@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inconsolata:wght@200..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    background: linear-gradient(#e66465, #9198e5);
+    background: linear-gradient(#e66465 20%, #7a84f5 70%);
     background-repeat: no-repeat;
     background-size: contain;
-    height:97.6vh;
+    height:150vh;
 }
 
 nav {
@@ -116,7 +116,7 @@ li .menu-buttons {
     align-items: flex-start;
     justify-content: flex-start;
     text-align: left;
-    margin-top: 180px; 
+    margin-top: 150px; 
     padding-left: 20px;
     margin-left: 72px;
 }
@@ -136,7 +136,7 @@ li .menu-buttons {
     transition: 0.3s ease-in-out;
 }
 
-h2 {
+.nocolor-head {
     font-family: 'Montserrat';
     margin: 10px 10px;
     font-size: 55px;
@@ -145,7 +145,9 @@ h2 {
 .coloured {
     background: linear-gradient(to right, rgb(25, 89, 208), blue, darkblue);
     -webkit-background-clip: text;
+    font-family: 'Montserrat';
     color: transparent;
+    font-size: 55px;
     margin: 10px 10px;
 }
 
@@ -212,6 +214,39 @@ input {
     transition: 0.3s ease;
     padding-left: 0;
 }
+
+.scroll-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    height: 100px; 
+}
+
+.scroll {
+    width: 70px; 
+    height: auto;
+    transition: 0.3s ease;
+}
+
+.scroll:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: 0.3s ease;
+    /* box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5);  */
+    border-radius: 50%;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+
+}
+
 
 
 /* .test {
