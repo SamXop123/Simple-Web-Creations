@@ -31,7 +31,7 @@ nav {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border-radius: 20px;
+    border-radius: 50px 20px 350px 20px;
     border:1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
@@ -130,8 +130,9 @@ li .menu-buttons {
 
 .text-area:hover {
     cursor: pointer;
-    margin: 0px 40px 0px 50px;
-    padding: 55px 50px 40px 25px;
+    /* margin: 0px 40px 0px 50px; */
+    /* padding: 55px 50px 40px 25px;  */
+    transform: scale(1.05);
     transition: 0.3s ease-in-out;
 }
 
@@ -200,9 +201,17 @@ input {
 
 .mainImg {
    border-radius: 50px 200px 40px 150px;
-   width: 500px;
+   margin-top: 0px;
+   width: 600px;
+   transition: 0.3s ease;
 }
 
+.mainImg:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.3s ease;
+    padding-left: 0;
+}
 
 
 /* .test {
