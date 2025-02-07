@@ -3,96 +3,96 @@
 
 @font-face {
     font-family: 'Comic Sans MS';
-    src: url('comic-webfont.woff2') format('woff2'),
-         url('comic-webfont.woff') format('woff');
+    src: url('./fonts/comic-webfont.woff2') format('woff2'),
+         url('./fonts/comic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Sriracha';
-    src: url('sriracha-regular-webfont.woff2') format('woff2'),
-         url('sriracha-regular-webfont.woff') format('woff');
+    src: url('./fonts/sriracha-regular-webfont.woff2') format('woff2'),
+         url('./fonts/sriracha-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Winter Minie';
-    src: url('winter_minie-webfont.woff2') format('woff2'),
-         url('winter_minie-webfont.woff') format('woff');
+    src: url('./fonts/winter_minie-webfont.woff2') format('woff2'),
+         url('./fonts/winter_minie-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Coolvetica';
-    src: url('coolvetica_rg-webfont.woff2') format('woff2'),
-         url('coolvetica_rg-webfont.woff') format('woff');
+    src: url('./fonts/coolvetica_rg-webfont.woff2') format('woff2'),
+         url('./fonts/coolvetica_rg-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Berlin Sans FB';
-    src: url('brlnsr-webfont.woff2') format('woff2'),
-         url('brlnsr-webfont.woff') format('woff');
+    src: url('./fonts/brlnsr-webfont.woff2') format('woff2'),
+         url('./fonts/brlnsr-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Gill Sans MT';
-    src: url('gil_____-webfont.woff2') format('woff2'),
-         url('gil_____-webfont.woff') format('woff');
+    src: url('./fonts/gil_____-webfont.woff2') format('woff2'),
+         url('./fonts/gil_____-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Chatlong';
-    src: url('chatlong-webfont.woff2') format('woff2'),
-         url('chatlong-webfont.woff') format('woff');
+    src: url('./fonts/chatlong-webfont.woff2') format('woff2'),
+         url('./fonts/chatlong-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Monotype Corsiva';
-    src: url('mtcorsva-webfont.woff2') format('woff2'),
-         url('mtcorsva-webfont.woff') format('woff');
+    src: url('./fonts/mtcorsva-webfont.woff2') format('woff2'),
+         url('./fonts/mtcorsva-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Century Gothic';
-    src: url('gothic-webfont.woff2') format('woff2'),
-         url('gothic-webfont.woff') format('woff');
+    src: url('./fonts/gothic-webfont.woff2') format('woff2'),
+         url('./fonts/gothic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Sunday Milk';
-    src: url('sundaymilk-webfont.woff2') format('woff2'),
-         url('sundaymilk-webfont.woff') format('woff');
+    src: url('./fonts/sundaymilk-webfont.woff2') format('woff2'),
+         url('./fonts/sundaymilk-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'LEMON MILK';
-    src: url('lemonmilk-regular-webfont.woff2') format('woff2'),
-         url('lemonmilk-regular-webfont.woff') format('woff');
+    src: url('./fonts/lemonmilk-regular-webfont.woff2') format('woff2'),
+         url('./fonts/lemonmilk-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Corbel';
-    src: url('corbel-webfont.woff2') format('woff2'),
-         url('corbel-webfont.woff') format('woff');
+    src: url('./fonts/corbel-webfont.woff2') format('woff2'),
+         url('./fonts/corbel-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
