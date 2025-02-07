@@ -100,7 +100,7 @@
 
 
 body {
-    background-image: url('download.jpg');
+    background-image: url('./media/download.jpg');
     /* background-repeat: no-repeat; */
     background-size: cover;
     height: 100vh;
