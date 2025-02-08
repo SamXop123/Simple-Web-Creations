@@ -5,7 +5,11 @@ body {
     background: linear-gradient(#e66465 5%, #7a84f5 95%);
     background-repeat: no-repeat;
     background-size: contain;
-    height:200vh;
+    height: 230vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: space-between;
 }
 
 nav {
@@ -114,6 +118,7 @@ li .menu-buttons {
 
 .main {
     display: flex;
+    flex: 1;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
@@ -148,6 +153,7 @@ li .menu-buttons {
 .coloured {
     background: linear-gradient(to right, rgb(25, 89, 208), blue, darkblue);
     -webkit-background-clip: text;
+    background-clip: text;
     font-family: 'Montserrat';
     color: transparent;
     font-size: 55px;
@@ -250,12 +256,22 @@ input {
 
 .bottom {
     display: flex;
-    align-items: center;
-    justify-content:space-evenly;
-    height: 50vh;
-    padding: 150px 30px;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start;
+    height: 120vh;
+    padding: 10px 30px;
     margin: 100px;
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap; /* This will allow cards to wrap to the next line if more in no. */
+    justify-content: space-evenly; 
+    gap: 70px;
+    margin-top: 10px;
 }
 
 
@@ -265,6 +281,7 @@ input {
     transition: 0.2s ease;
     padding: 30px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 
@@ -273,6 +290,7 @@ input {
     cursor: pointer;
     transform: scale(1.05);
     transition: 0.2s ease;
+    backdrop-filter: blur(50px);
 }
 
 .card-head {
@@ -314,6 +332,21 @@ input {
     transform: scale(1.2);
     border-left: 3px solid white;
     border-right: 3px solid white;
+}
+
+.footer {
+    height: 70px;
+    width: 100%;
+    background-color: #6e59f8;
+    border-top: 3px solid white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    left: 0;
 }
 
 /* .test {
