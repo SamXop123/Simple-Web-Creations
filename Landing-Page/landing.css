@@ -162,6 +162,7 @@ li .menu-buttons {
 
 p {
     margin: 10px 15px;
+    font-family: 'Comic Sans MS', Georgia, 'Times New Roman', Times, serif;
 }
 
 form {
@@ -259,7 +260,7 @@ input {
     flex-direction: column;
     align-items: center; 
     justify-content: flex-start;
-    height: 120vh;
+    height: 100vh;
     padding: 10px 30px;
     margin: 100px;
     margin-top: 30px;
@@ -277,7 +278,7 @@ input {
 
 .card {
     width: 400px;
-    height: 500px;
+    height: 450px;
     transition: 0.2s ease;
     padding: 30px;
     text-align: center;
@@ -356,6 +357,7 @@ input {
     justify-content: space-between;
     flex-wrap: wrap;
     padding-bottom: 20px;
+    gap: 50px;
 }
 
 .footer-section {
@@ -376,29 +378,31 @@ input {
 }
 
 .footer-section ul {
+    display: flex;
     padding: 0;
 }
 
 .footer-section ul li {
     list-style: none;
-    margin: 8px 0;
 }
 
 .footer-section ul li a {
     text-decoration: none;
     color: white;
     transition: 0.3s ease-in-out;
+    font-size: 16px;
 }
 
 .footer-section ul li a:hover {
-    color: #ffd700; /* Gold hover effect */
+    color: #ffd700;
     padding-left: 5px;
 }
+
 
 .social-links {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 1px;
 }
 
 .social-links li {
@@ -415,8 +419,3 @@ input {
 }
 
 
-/* .test {
-    background-color: #9198e5;
-    width: 50px;
-    height: 500px;
-} */
