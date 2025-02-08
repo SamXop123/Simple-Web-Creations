@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inconsolata:wght@200..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    background: linear-gradient(#e66465 20%, #7a84f5 70%);
+    background: linear-gradient(#e66465 5%, #7a84f5 95%);
     background-repeat: no-repeat;
     background-size: contain;
-    height:150vh;
+    height:200vh;
 }
 
 nav {
@@ -15,7 +15,9 @@ nav {
     transform: translateX(-50%);
     display: flex;
     justify-content: space-between; 
+    align-items: center;
     width: 80%;    
+    height: 50px;
     z-index: 1000;
     border-radius: 30px;
     padding: 10px 0;
@@ -31,7 +33,7 @@ nav {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border-radius: 50px 20px 350px 20px;
+    border-radius: 40px 40px 40px 40px;
     border:1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
@@ -126,6 +128,7 @@ li .menu-buttons {
     margin: 0px 45px;
     padding: 50px 50px 40px 20px;
     transition: 0.3s ease-in-out;
+    border-radius: 50px 20px 350px 20px;
 }
 
 .text-area:hover {
@@ -248,15 +251,28 @@ input {
 .bottom {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-evenly;
+    height: 50vh;
+    padding: 150px 30px;
+    margin: 100px;
+    margin-top: 50px;
 }
+
 
 .card {
-
+    width: 400px;
+    height: 500px;
+    transition: 0.2s ease;
+    padding: 30px;
 }
 
 
-
+.card:hover {
+    background-color: rgb(214, 231, 255);
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.2s ease;
+}
 /* .test {
     background-color: #9198e5;
     width: 50px;
