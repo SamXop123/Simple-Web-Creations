@@ -277,10 +277,12 @@ input {
 
 .card-head {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 0.2s ease;
 }
 
-.card-head:hover {
-    transform: scale(1.05);
+.card:hover .card-head {
+    transform: scale(1.1);
+    transition: 0.3s ease;
 }
 
 .card-subhead {
@@ -292,7 +294,9 @@ input {
 .ImgHold {
     width: 100%; 
     height: 50%; 
-    overflow: hidden; 
+    /* overflow: hidden;  */
+    position: relative;
+    margin-top: 40px;
 }
 
 .bottom-img {
@@ -300,11 +304,16 @@ input {
     height: 100%; 
     object-fit: cover;
     border-radius: 20px;
+    transition: transform 0.3s ease;
+    position: absolute; 
+    top: 0;
+    left: 0;
 }
 
 .bottom-img:hover {
-    transform: scale(2);
-    overflow: visible;
+    transform: scale(1.2);
+    border-left: 3px solid white;
+    border-right: 3px solid white;
 }
 
 /* .test {
