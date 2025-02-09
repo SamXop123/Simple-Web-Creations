@@ -49,12 +49,25 @@ body {
     border-radius: 0 0 3px 3px;
 }
   
-.logo {
-    width: 200px;
+.head {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.title {
+    width: 400px;
     position: absolute;
     top: 23px;
+    margin-top: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
 }
   
+.logo {
+    width: 30px;
+}
+
 @media (max-width: 768px) {
     #piano {
       width: 358px;
