@@ -6,12 +6,16 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
 }
+
+body {
+    background-color:bisque;
+}
   
 #piano {
-    background-color: #1fa7b1;
+    background-color: #63369a;
     width: 992px;
     height: 290px;
-    margin: 80px auto;
+    margin: 100px auto;
     padding: 90px 20px 0 20px;
     position: relative;
     border-radius: 10px;
@@ -35,7 +39,7 @@ html {
     border-radius: 0 0 3px 3px;
 }
   
-.key.black--key::after {
+.key.black-key::after {
     background-color: #1d1e22;
     content: "";
     position: absolute;
