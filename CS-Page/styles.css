@@ -1,0 +1,146 @@
+body { 
+    background-color: bisque;
+}
+
+.header {
+    background-color: #477bff;
+    color: bisque;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: left;
+    font-family: "Chatlong";
+    font-size: 35px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color:#477bff;
+    border-bottom-color: #ee2b4b;
+}
+
+
+/* Navigation Bar Styles */
+.navbar {
+    background-color: #3366cc; /* Blue color matching the header */
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+}
+
+
+.navbar li a {
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: background-color 0.3s;
+}
+
+.navbar li a:hover {
+    background-color: #ff0000; /* Red hover effect to match the thin red line */
+}
+
+.container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.5;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 0px;
+    overflow: hidden;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+}
+
+.content img {
+    margin: 10px 0;
+}
+
+.img-large {
+    height: 200px;
+    width: 250px;
+}
+
+.img{
+    height: 200px;
+    width: 380px;
+}
+
+
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#form-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#form-header {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #477bff;
+    color: white;
+    border-radius: 8px 8px 0 0;
+}
+
+#form-header h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #477bff;
+    color: white;
+    font-size: 16px;
+}
+
+#message {
+    display: none;
+    color: green;
+    margin-top: 10px;
+}

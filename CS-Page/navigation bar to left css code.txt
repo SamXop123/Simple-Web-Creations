@@ -1,0 +1,28 @@
+--------------------------------
+.navbar {
+    display: flex;      /* Use flexbox for the navbar */
+    justify-content: right;
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;            /* Remove padding */
+    margin: 0;             /* Remove margin */
+    display: inline-flex;  /* Display list items in a row and center align */
+}
+
+.navbar li {
+    margin-right: 20px;    /* Add space between list items */
+}
+
+.navbar a {
+    text-decoration: none; /* Remove underline from links */
+    color: black;         
+    font-weight: bold;     
+    font-size: 1.5em;      
+}
+
+.navbar a:hover {
+    color: orange;        
+}
+----------------------------------------
