@@ -17,9 +17,8 @@ body {
 }
 
 
-/* Navigation Bar Styles */
 .navbar {
-    background-color: #3366cc; /* Blue color matching the header */
+    background-color: #3366cc; 
     overflow: hidden;
 }
 
@@ -28,7 +27,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: flex-end; /* Align items to the right */
+    justify-content: flex-end; 
 }
 
 
@@ -42,7 +41,7 @@ body {
 }
 
 .navbar li a:hover {
-    background-color: #ff0000; /* Red hover effect to match the thin red line */
+    background-color: #ff0000; 
 }
 
 .container {
@@ -80,7 +79,6 @@ h2 {
     height: 200px;
     width: 380px;
 }
-
 
 
 footer {
