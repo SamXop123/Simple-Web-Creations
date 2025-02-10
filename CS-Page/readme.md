@@ -1,4 +1,4 @@
-### A simple website describiing basic fields of computer science.
+### A simple website describing basic fields of computer science.
 #### Run using index.html
 
 Here is the link for easy access: <br>
