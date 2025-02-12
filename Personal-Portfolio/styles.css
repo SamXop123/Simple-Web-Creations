@@ -6,3 +6,33 @@ body {
     font-family: 'Neuzeit Grotesk Cond W03 Black';
     color: white;
 }
+
+nav {
+    border: 2px solid white;
+    height: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav-title {
+    font-size: 15px;
+    object-fit: contain;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-cta-buttons {
+    background-color: #080808;
+    color: white;
+}
+
+.mode-change {
+    width: 25px;
+}
