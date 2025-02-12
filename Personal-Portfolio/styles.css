@@ -18,9 +18,13 @@ nav {
     padding: 10px;
 }
 
-.nav-title {
+.autotype-head {
     position: relative;
-    bottom: 17px;
+    bottom: 30px;
+    font-size: 35px;
+}
+
+.nav-title {
     font-size: 30px;
     color: rgb(78, 254, 195);
     filter: drop-shadow(16px 16px 20px aquamarine);
@@ -48,6 +52,7 @@ nav {
 .mode-change {
     width: 25px;
     cursor: pointer;
+    transition: 1s ease;
 }
 
 .mode-change:hover {
