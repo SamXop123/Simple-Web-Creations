@@ -71,7 +71,7 @@ nav {
 main {
     margin-top: 80px;
     margin-left: 10%;
-    border: 3px solid white;
+    /* border: 3px solid white; */
     width: 80vw;
     display: flex;
     justify-content: space-around;
@@ -82,7 +82,7 @@ main {
 .main-desc {
     display: flex;
     flex-direction: column;
-    gap: -100px;
+    gap: 0px;
 }
 
 .logo {
@@ -99,12 +99,46 @@ main {
 }
 
 .sub-title {
-    font-size: 28px;
+    font-size: 25px;
 }
 
 .main-autotype {
-    font-size: 24px;
+    font-size: 20px;
     color: rgb(78, 254, 195);
     filter: drop-shadow(16px 16px 20px aquamarine);
 }
 
+.main-desc {
+    font-family: 'DM Sans','Lilita One';
+    font-size: 10px;
+    max-width: 400px;
+    margin-top: 10px;
+}
+
+
+.social {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-links {
+    border: 2px solid rgb(78, 254, 195);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.social-links:hover {
+    transform: rotate(360deg) scale(1.07);
+    transition: 1s ease;
+}
+
+.social-logo {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    filter: drop-shadow(16px 16px 20px aquamarine);
+}
