@@ -40,7 +40,6 @@ nav {
 .nav-cta-buttons:hover {
     color: rgb(78, 254, 195);
     filter: drop-shadow(16px 16px 20px aquamarine);
-    /* transition: 0.5s ease-in-out; */
     cursor: pointer;
     border-bottom: 3px solid rgb(78, 254, 195);
 
