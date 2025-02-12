@@ -285,7 +285,7 @@ main {
 .skill-container {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
     width: 60vw;
     margin-bottom: 50px;
 }
@@ -294,7 +294,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    gap: 5px;
+    gap: 10px;
     padding: 50px;
     width: 80px;
     height: 130px;
@@ -303,3 +303,12 @@ main {
 .skill-text {
     font-size: 20px;
 }
+
+.skill-card:hover {
+    background-color: rgb(13, 48, 37);
+    cursor: pointer;
+    transform: scale(1.09);
+    transition: 0.2s ease-out;
+    filter: drop-shadow(5px 5px 30px aquamarine);
+}
+
