@@ -1,10 +1,19 @@
-@import url(https://db.onlinewebfonts.com/c/d86aa14b4ac846cc2ed18147f353cfa3?family=Neuzeit+Grotesk+Cond+W03+Black);
+@import url('https://db.onlinewebfonts.com/c/d86aa14b4ac846cc2ed18147f353cfa3?family=Neuzeit+Grotesk+Cond+W03+Black');
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inconsolata:wght@200..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Lilita+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
     background-color: #080808;
     font-family: 'Neuzeit Grotesk Cond W03 Black', 'Lilita One';
     color: white;
+}
+
+.glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 40px 40px 40px 40px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
 ::-webkit-scrollbar {
@@ -133,7 +142,6 @@ main {
     margin-top: 10px;
 }
 
-
 .social {
     display: flex;
     flex-direction: row;
@@ -181,15 +189,6 @@ main {
 /* ========================================== */
 
 /* PROJECTS */
-
-.glass{
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 40px 40px 40px 40px;
-    border:1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-}
 
 .bottom {
     display: flex;
