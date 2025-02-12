@@ -142,3 +142,20 @@ main {
     border-radius: 50%;
     filter: drop-shadow(16px 16px 20px aquamarine);
 }
+
+.scroll {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Imgscroll {
+    filter: invert(75%) drop-shadow(10px 10px 10px aquamarine);
+    transition: 0.5s ease;
+}
+
+.Imgscroll:hover {
+    transform: scale(1.2);
+    transition: 0.5s ease;
+    cursor:pointer;
+}
