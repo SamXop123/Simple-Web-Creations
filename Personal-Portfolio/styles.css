@@ -69,7 +69,42 @@ nav {
 /* Main styling */
 
 main {
-    width: 60vw;
+    margin-top: 80px;
+    margin-left: 10%;
+    border: 3px solid white;
+    width: 80vw;
     display: flex;
-    
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
 }
+
+.main-desc {
+    display: flex;
+    flex-direction: column;
+    gap: -100px;
+}
+
+.logo {
+    width: 500px;
+    filter: drop-shadow(16px 16px 20px rgb(127, 234, 255));
+}
+
+.main-title {
+    font-size: 65px;
+}
+
+.sam {
+    color: rgb(78, 254, 195);
+}
+
+.sub-title {
+    font-size: 28px;
+}
+
+.main-autotype {
+    font-size: 24px;
+    color: rgb(78, 254, 195);
+    filter: drop-shadow(16px 16px 20px aquamarine);
+}
+
