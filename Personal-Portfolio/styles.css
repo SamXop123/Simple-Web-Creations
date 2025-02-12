@@ -16,7 +16,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(36, 152, 201);
+    background: linear-gradient(rgb(36, 152, 201), rgb(20, 86, 115));
     border-radius: 10px; 
 }
 
@@ -268,3 +268,5 @@ main {
     /* border-left: 3px solid white;
     border-right: 3px solid white; */
 }
+
+
