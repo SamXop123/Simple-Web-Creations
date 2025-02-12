@@ -7,6 +7,10 @@ body {
     color: white;
 }
 
+/* ========================================== */
+
+/* Navbar styling */
+
 nav {
     /* border: 2px solid white; */
     height: 50px;
@@ -46,7 +50,6 @@ nav {
     filter: drop-shadow(16px 16px 20px aquamarine);
     cursor: pointer;
     border-bottom: 3px solid rgb(78, 254, 195);
-
 }
 
 .mode-change {
@@ -59,4 +62,14 @@ nav {
     filter: drop-shadow(-1px 5px 10px yellow);
     transform: rotate(180deg);
     transition: 1s ease;
+}
+
+/* ============================================== */
+
+/* Main styling */
+
+main {
+    width: 60vw;
+    display: flex;
+    
 }
