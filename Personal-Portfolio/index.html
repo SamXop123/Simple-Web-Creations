@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sameer Prajapati</title>
 
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> -->
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -13,7 +13,7 @@
     
     <nav>
         <div>
-        <h1 class="nav-title">Sameer Prajapati</h1>
+        <h1 class="autotype-head"><span class="nav-title"></span></h1>
         </div>
 
         <div class="nav-links">
@@ -29,12 +29,14 @@
     </nav>
 
 
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
     <script>
-        var typed = new Typed('.nav-title', {
-          strings: ["Sameer Prajapati", "SamXop123", "Dot_NotSam"],
-          typeSpeed: 100,
-          backSpeed: 50,
-          looped: true
+        var typed = new Typed(".nav-title",{
+        strings : ["Sameer Prajapati", "Dot_NotSam", "SamXop123"],
+        typeSpeed : 100,
+        backSpeed : 50,
+        loop : true,
         })
     </script>
 
