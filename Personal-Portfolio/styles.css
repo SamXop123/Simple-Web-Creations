@@ -3,12 +3,12 @@
 
 body {
     background-color: #080808;
-    font-family: 'Neuzeit Grotesk Cond W03 Black';
+    font-family: 'Neuzeit Grotesk Cond W03 Black', 'Lilita One';
     color: white;
 }
 
 nav {
-    border: 2px solid white;
+    /* border: 2px solid white; */
     height: 50px;
     margin-left: 200px;
     margin-right: 200px;
@@ -19,8 +19,11 @@ nav {
 }
 
 .nav-title {
-    font-size: 15px;
-    object-fit: contain;
+    position: relative;
+    bottom: 17px;
+    font-size: 30px;
+    color: rgb(78, 254, 195);
+    filter: drop-shadow(16px 16px 20px aquamarine);
 }
 
 .nav-links {
@@ -29,10 +32,27 @@ nav {
 }
 
 .nav-cta-buttons {
-    background-color: #080808;
     color: white;
+    padding-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.nav-cta-buttons:hover {
+    color: rgb(78, 254, 195);
+    filter: drop-shadow(16px 16px 20px aquamarine);
+    /* transition: 0.5s ease-in-out; */
+    cursor: pointer;
+    border-bottom: 3px solid rgb(78, 254, 195);
+
 }
 
 .mode-change {
     width: 25px;
+    cursor: pointer;
+}
+
+.mode-change:hover {
+    filter: drop-shadow(-1px 5px 10px yellow);
+    transform: rotate(180deg);
+    transition: 1s ease;
 }
