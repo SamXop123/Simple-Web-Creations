@@ -7,6 +7,19 @@ body {
     color: white;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(32, 66, 55); 
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(36, 152, 201);
+    border-radius: 10px; 
+}
+
 /* ========================================== */
 
 /* Navbar styling */
