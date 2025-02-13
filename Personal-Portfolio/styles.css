@@ -323,6 +323,7 @@ main {
 .aligning-contact {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .contact {
@@ -455,27 +456,46 @@ textarea:hover {
     height: 100%;
     width: 100%;
     background-color: var(--glow-spread-color);
-    filter: blur(1em); /* Reduced blur */
-    opacity: 0.5; /* Lower opacity */
+    filter: blur(0.5em); /* Reduced blur even more */
+    opacity: 0.3; /* Lower opacity */
     transform: perspective(1.5em) rotateX(35deg) scale(1, 0.6);
+}
+
+.contact-btn {
+    border: 0.2em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 
+        0 0 0.5em 0.1em var(--glow-color), /* Much smaller glow */
+        0 0 1.5em 0.5em var(--glow-spread-color), /* Subtle outer glow */
+        inset 0 0 0.3em 0.1em var(--glow-color); /* Very soft inset */
+    text-shadow: 0 0 0.3em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
 }
 
 .contact-btn:hover {
     color: var(--btn-color);
     background-color: var(--glow-color);
     box-shadow: 
-        0 0 0.8em 0.2em var(--glow-color), /* Less spread */
-        0 0 2em 1em var(--glow-spread-color), /* Reduced glow */
-        inset 0 0 0.5em 0.2em var(--glow-color); /* Subtle inset effect */
+        0 0 0.5em 0.1em var(--glow-color), /* Subtle hover glow */
+        0 0 1.5em 0.5em var(--glow-spread-color), /* Soft outer glow */
+        inset 0 0 0.3em 0.1em var(--glow-color); /* Minimal inset */
     cursor: pointer;
 }
 
 .contact-btn:active {
     box-shadow: 
-        0 0 0.5em 0.2em var(--glow-color), /* Reduced intensity */
-        0 1.5em 1em var(--glow-spread-color), /* Lowered height */
-        inset 0 0 0.3em 0.2em var(--glow-color); /* Softer inset */
+        0 0 0.3em 0.1em var(--glow-color), /* Almost no glow */
+        0 1em 0.5em var(--glow-spread-color), /* Slight depth effect */
+        inset 0 0 0.2em 0.1em var(--glow-color); /* Tiny inset effect */
 }
+
 
 
 
