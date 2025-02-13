@@ -320,11 +320,57 @@ main {
 
 /* CONTACT */
 
-.contact {
-    width: 90vw;
+.aligning-contact {
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin: 70px;
-    margin-top: 150px;
 }
+
+.contact {
+    width: 30vw;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* margin-left: 500px; */
+    /* margin-top: 150px; */
+    padding: 20px;
+}
+
+.bg-lines {
+    position: relative;
+    height: 20px;
+}
+
+/* #hr1 {
+    top: 310px;
+} */
+#hr2 {
+    top: 330px;
+}
+#hr3 {
+    top: 350px;
+}
+#hr4 {
+    top: 370px;
+}
+#hr5 {
+    top: 390px;
+}
+#hr6 {
+    top: 410px;
+}
+#hr7 {
+    top: 430px;
+}
+#hr8 {
+    top: 450px;
+}
+#hr9 {
+    top: 470px;
+}
+/* 
+.contact-card {
+    width: 50vw;
+    height: 400px;
+} */
