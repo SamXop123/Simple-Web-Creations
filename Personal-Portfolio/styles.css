@@ -316,3 +316,15 @@ main {
     filter: drop-shadow(5px 5px 30px aquamarine);
 }
 
+/* ========================================== */
+
+/* CONTACT */
+
+.contact {
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 70px;
+    margin-top: 150px;
+}
