@@ -1,15 +1,61 @@
 @import url('https://db.onlinewebfonts.com/c/d86aa14b4ac846cc2ed18147f353cfa3?family=Neuzeit+Grotesk+Cond+W03+Black');
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inconsolata:wght@200..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Lilita+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    --bg-color: #080808;
+    --text-color: white;
+
+    --base-color: #070b1d;
+    --base-variant: #101425;
+    --text-color: #ffffff;
+    --secondary-text: #a4a5b8;
+    --primary-color: #3a435d;
+    --accent-color: #0071ff;
+}
+
+.darkmode {
+    --bg-color: white;
+    --text-color: #080808;
+
+    --base-color: white;
+    --base-variant: #e8e9ed;
+    --text-color: #111528;
+    --secondary-text: #232738;
+    --primary-color: #3a435d;
+    --accent-color: #0071ff;
+}
+
+#theme-switch {
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: var(--base-variant);
+    position: relative;
+    bottom: 10px;
+}
+
+#theme-switch img {
+    fill: var(--primary-color);
+}
+#theme-switch img:last-child {
+    display: none;
+}
+.darkmode #theme-switch img:first-child {
+    display: none;
+}
+.darkmode #theme-switch img:last-child {
+    display: block;
+}
 
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    background-color: #080808;
+    background-color: var(--bg-color);
     font-family: 'Neuzeit Grotesk Cond W03 Black', 'Lilita One';
-    color: white;
+    color: var(--text-color);
 }
 
 .glass{
@@ -67,7 +113,7 @@ nav {
 }
 
 .nav-cta-buttons {
-    color: white;
+    color: var(--text-color);
     padding-bottom: 10px;
     padding-bottom: 20px;
 }
@@ -81,7 +127,7 @@ nav {
 
 .nav-cta-links {
     text-decoration: none;
-    color: white;
+    color: var(--text-color);
 }
 
 .mode-change {
@@ -512,11 +558,12 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(255, 255, 255, 0.1);
+    /* rgba(255, 255, 255, 0.1) */
+    background: var(--bg-color);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-top: 1px solid rgba(255, 255, 255, 0.18);
-    color: white;
+    color: var(--text-color);
     font-size: 14px;
 }
 
