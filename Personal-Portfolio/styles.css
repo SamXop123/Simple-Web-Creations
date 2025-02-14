@@ -167,9 +167,18 @@ main {
 }
 
 .main-desc {
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 0px;
+}
+
+.gridImg {
+    position: absolute;
+    bottom: -80px;
+    right: -30px;
+    z-index: -1;
+    opacity: 20%;
 }
 
 .logo {
@@ -555,13 +564,6 @@ textarea:hover {
         inset 0 0 0.2em 0.1em var(--glow-color); /* Tiny inset effect */
 }
 
-.gridImg {
-    position: absolute;
-    bottom: 130px;
-    left: 175px;
-    z-index: -1;
-    opacity: 20%;
-}
 
 /* ============================================================= */
 
@@ -575,8 +577,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* rgba(255, 255, 255, 0.1) */
-    background: var(--bg-color);
+    background: var(--bg-color); /* rgba(255, 255, 255, 0.1) */
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-top: 1px solid rgba(255, 255, 255, 0.18);
