@@ -500,6 +500,9 @@ textarea:hover {
         inset 0 0 0.2em 0.1em var(--glow-color); /* Tiny inset effect */
 }
 
+/* ============================================================= */
+
+/* FOOTER */
 
 footer {
     width: 90%;
@@ -546,3 +549,4 @@ footer {
     transform: scale(1.1);
     filter: drop-shadow(0px 0px 10px white);
 }
+
