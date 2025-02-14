@@ -395,9 +395,12 @@ input {
 
 input:hover {
     cursor: pointer;
-    background-color: rgb(31, 58, 49);
-    color: white;
+    background-color: rgb(121, 211, 181);
+    /* color: white; */
     transition: 0.1s ease;
+    filter: drop-shadow(10px 10px 20px aquamarine);
+    transform: scale(1.05);
+
 }
 
 textarea {
@@ -412,9 +415,10 @@ textarea {
 
 textarea:hover {
     cursor: pointer;
-    background-color: rgb(31, 58, 49);
-    color: white;
+    background-color: rgb(121, 211, 181);
+    /* color: white; */
     transition: 0.1s ease;
+    filter: drop-shadow(10px 10px 20px aquamarine);
 }
 
 
