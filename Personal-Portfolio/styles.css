@@ -501,3 +501,48 @@ textarea:hover {
 }
 
 
+footer {
+    width: 90%;
+    padding: 5px 50px;
+    margin-top: 200px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255, 255, 255, 0.18);
+    color: white;
+    font-size: 14px;
+}
+
+.footer-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-left h2 {
+    color: rgb(78, 254, 195);
+    font-size: 20px;
+}
+
+.footer-right {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-icon {
+    width: 25px;
+    height: 25px;
+    filter: drop-shadow(0px 0px 5px aquamarine);
+    transition: 0.3s ease;
+}
+
+.footer-icon:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0px 0px 10px white);
+}
