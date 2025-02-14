@@ -550,12 +550,12 @@ footer {
     filter: drop-shadow(0px 0px 10px white);
 }
 
-/*  ================================================= */
+/* ============================================= */
 
 /* MOBILE RESPONSIVENESS */
 
 @media (max-width: 768px) {
-    /* General Styles */
+
     body {
         text-align: center;
         padding: 0;
@@ -564,14 +564,22 @@ footer {
 
     /* Navbar */
     nav {
+        margin-top: 200px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        gap: 0;
         margin: 0;
+        margin-bottom: 100px;
+    }
+
+    .autotype-head {
+        margin-top: 150px;
+        font-size: 15px;
     }
 
     .nav-links {
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
         gap: 10px;
     }
@@ -580,7 +588,8 @@ footer {
         padding-bottom: 5px;
     }
 
-    /* Main Section */
+
+    /* Main section */
     main {
         flex-direction: column;
         text-align: center;
@@ -590,7 +599,7 @@ footer {
     }
 
     .logo {
-        width: 250px;  
+        width: 250px;
     }
 
     .main-title {
@@ -604,6 +613,7 @@ footer {
     .main-desc {
         font-size: 14px;
         max-width: 90%;
+        margin-left: 12px;
     }
 
     .social {
@@ -621,15 +631,35 @@ footer {
         height: 25px;
     }
 
-    /* Projects Section */
+    .scroll {
+        position: relative;
+        top: 100px;
+    }
+
+
+    /* Projects section */
+    .bottom {
+        background: none;
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+        border-radius: none;
+        border: none;
+        box-shadow: none;
+    }
+
+    .bottom-head {
+        width: 150px;
+    }
+
     .card-container {
         flex-direction: column;
         align-items: center;
     }
 
     .card {
-        width: 90%;
+        width: 280px;
     }
+
 
     /* Skills Section */
     .skill-container {
@@ -644,7 +674,15 @@ footer {
         padding: 20px;
     }
 
-    /* Contact Form */
+    .skill-text {
+        font-size: 12px;
+    }
+
+
+    /* Contact */
+    .contact {
+        width: 350px;
+    }
     .contact form {
         display: flex;
         flex-direction: column;
@@ -652,13 +690,36 @@ footer {
         width: 90%;
     }
 
+    .contact-btn {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
     .contact input, .contact textarea {
         width: 90%;
     }
 
-    /* Footer */
+
+    /* FOOTER */
     .footer {
         text-align: center;
-        padding: 20px;
+        padding: 0px;
+        width: 310px;
+        margin-left: 0;
+        margin: 0;
     }
+
+    .footer-container {
+        margin-left: 0;
+        gap: 50px;
+        justify-content: space-evenly;
+    }
+
+    .footer-right {
+        display: flex;
+        flex-direction:column;
+    }
+
 }
+
