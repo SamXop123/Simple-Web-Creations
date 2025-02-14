@@ -550,3 +550,115 @@ footer {
     filter: drop-shadow(0px 0px 10px white);
 }
 
+/*  ================================================= */
+
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width: 768px) {
+    /* General Styles */
+    body {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* Navbar */
+    nav {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .nav-cta-buttons {
+        padding-bottom: 5px;
+    }
+
+    /* Main Section */
+    main {
+        flex-direction: column;
+        text-align: center;
+        margin-left: 5%;
+        width: 90%;
+        gap: 20px;
+    }
+
+    .logo {
+        width: 250px;  
+    }
+
+    .main-title {
+        font-size: 40px;
+    }
+
+    .sub-title {
+        font-size: 18px;
+    }
+
+    .main-desc {
+        font-size: 14px;
+        max-width: 90%;
+    }
+
+    .social {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .social-links {
+        width: 30px;
+        height: 30px;
+    }
+
+    .social-logo {
+        width: 25px;
+        height: 25px;
+    }
+
+    /* Projects Section */
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    /* Skills Section */
+    .skill-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90%;
+    }
+
+    .skill-card {
+        width: 60px;
+        height: 100px;
+        padding: 20px;
+    }
+
+    /* Contact Form */
+    .contact form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+    .contact input, .contact textarea {
+        width: 90%;
+    }
+
+    /* Footer */
+    .footer {
+        text-align: center;
+        padding: 20px;
+    }
+}
