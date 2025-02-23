@@ -48,3 +48,21 @@ body {
     display: flex;
     gap: 20px;
 }
+
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-right: 200px;
+    gap: 150px;
+}
+
+.pfp {
+    border-radius: 50%;
+    position: relative;
+    right: 194px;
+    bottom: 10px;
+    
+}
