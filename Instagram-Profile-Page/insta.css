@@ -17,6 +17,7 @@ body {
     height: 80px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: white;
     
 }
@@ -26,11 +27,19 @@ body {
     font-weight: 500;
     font-size: 30px;
     border-left: 3px solid rgb(192, 190, 190);
-    padding-left: 10px;
+    padding-left: 15px;
 }
+
 
 .search {
     background-color: gray;
     width: 200px;
     height: 25px;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
 }
