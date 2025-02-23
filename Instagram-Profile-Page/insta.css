@@ -17,9 +17,9 @@ body {
     height: 80px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     background-color: white;
-    
+    gap: 200px;
+    border-bottom: 0.1px solid rgb(234, 234, 234);
 }
 
 .nav-head {
@@ -41,5 +41,10 @@ body {
     display: flex;
     align-items: center;
     gap: 5px;
-    
+    margin-left: 350px;
+}
+
+.right-btns {
+    display: flex;
+    gap: 20px;
 }
