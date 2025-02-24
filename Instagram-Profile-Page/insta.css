@@ -71,6 +71,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 20px;
 }
 
 .top-row {
@@ -97,4 +98,15 @@ body {
 .heart {
     background: #3997ef;
     padding: 8px 18px;
+}
+
+.middle-row {
+    display: flex;
+    gap: 35px;
+}
+
+.last-row {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
