@@ -55,14 +55,46 @@ body {
     align-items: center;
     justify-content: center;
     margin-top: 80px;
-    margin-right: 200px;
-    gap: 150px;
+    margin-right: 450px;
+    gap: 100px;
 }
 
 .pfp {
     border-radius: 50%;
     position: relative;
-    right: 194px;
+    left: 194px;
     bottom: 10px;
     
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.name {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+
+.flw-btn {
+    background-color: #3997ef;
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    
+}
+
+.heart {
+    background: #3997ef;
+    padding: 8px 18px;
 }
