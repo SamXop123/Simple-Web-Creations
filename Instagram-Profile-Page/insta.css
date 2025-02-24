@@ -32,9 +32,18 @@ body {
 
 
 .search {
-    background-color: gray;
+    background-color: #e4e4e4;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 3px;
     width: 200px;
     height: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    opacity: 40%;
+    padding-right: 5px;
 }
 
 .left-side {
@@ -92,12 +101,13 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     color: white;
-    
+    border-radius: 5px;
 }
 
 .heart {
     background: #3997ef;
     padding: 8px 18px;
+    border-radius: 5px;
 }
 
 .middle-row {
@@ -109,4 +119,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 5px;
+}
+
+.content-web-link {
+    color: #496287;
 }
