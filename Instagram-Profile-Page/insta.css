@@ -131,6 +131,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 35px;
+    margin-left: 100px;
     gap: 45px;
 }
 
@@ -145,4 +146,12 @@ body {
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
+}
+
+#right-arrow {
+    width: 40px;
+    object-fit: contain;
+    margin-left: -30px;
+    filter: invert(50%);
+    cursor: pointer;
 }
