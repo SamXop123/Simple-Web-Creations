@@ -127,7 +127,10 @@ body {
 
 .stories {
     display: flex;
-    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    gap: 45px;
 }
 
 .story-img-container {
