@@ -167,11 +167,23 @@ body {
 }
 
 
-.posts {
+.reels {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    margin: 100px 300px;
 }
 
+.post {
+    width: 250px;
+    height: 350px;
+    
+}
+
+.post-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
