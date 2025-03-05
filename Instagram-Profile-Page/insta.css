@@ -45,6 +45,7 @@ body {
     gap: 5px;
     opacity: 40%;
     padding-right: 5px;
+    cursor: text;
 }
 
 .left-side {
@@ -57,7 +58,16 @@ body {
 .right-btns {
     display: flex;
     gap: 20px;
+    transition: 0.2s ease-in-out;
 }
+
+
+.right-btns img:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: 0.2s ease-in-out;
+}
+
 
 .main {
     display: flex;
