@@ -127,6 +127,10 @@ body {
     font-family: 'Comic Sans MS';
 }
 
+.heart:hover, .three-dots:hover, .flw-btn:hover, .content-web-link:hover {
+    cursor: pointer;
+}
+
 .last-row {
     display: flex;
     flex-direction: column;
@@ -154,6 +158,10 @@ body {
     align-items: center;
     gap: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.story:hover {
+    cursor: pointer;
 }
 
 .story-img-container {
