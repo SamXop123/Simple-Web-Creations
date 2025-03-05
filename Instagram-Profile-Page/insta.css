@@ -182,6 +182,7 @@ body {
 .post {
     width: 250px;
     height: 350px;
+    transition: 0.2s ease-in-out;
 }
 
 .post-img {
@@ -189,4 +190,10 @@ body {
     height: 100%;
     border-radius: 5px;
     object-fit: cover;
+}
+
+.post:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: 0.2s ease-in-out;
 }
