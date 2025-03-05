@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inconsolata:wght@200..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Lilita+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sigmar&display=swap');
+
+@font-face {
+    font-family: 'Comic Sans MS';
+    src: url('./font/comic-webfont.woff2') format('woff2'),
+         url('./font/comic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 * {
     margin: 0;
