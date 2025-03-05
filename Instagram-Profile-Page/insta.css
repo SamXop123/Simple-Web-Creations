@@ -121,6 +121,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    font-size: 14px;
+    font-family: 'Tahoma', 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .content-web-link {
