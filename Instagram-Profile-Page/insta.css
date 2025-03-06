@@ -267,12 +267,13 @@ body {
         justify-content: center;
         align-items: center;
         margin-right: 150px;
-        margin-top
     }
 
     .pfp {
         position: relative;
         border-radius: 50%;
+        top: 0px;
+        left: 190px;
     }
 
     .stories {
@@ -296,11 +297,11 @@ body {
     
     .reels {
         width: 100%;
-        margin: 80px 19px;
+        margin: 80px 0px;
     }
 
     .post {
-        width: 200px;
-        height: 300px;
+        width: 180px;
+        height: 280px;
     }
 }
