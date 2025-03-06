@@ -291,7 +291,7 @@ body {
     }
 
     .name {
-        font-size: 30px;
+        font-size: 32px;
     }
 
     .flw-btn {
@@ -304,13 +304,17 @@ body {
         padding: 6px 16px;
     }
 
+    .middle-row {
+        gap: 25px;
+    }
+
     .last-row {
         font-size: 12px;
     }
 
     .stories {
         gap: 10px;
-        margin-left: 19px;
+        margin-left: 10px;
     }
 
     .story {
