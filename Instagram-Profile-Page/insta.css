@@ -227,11 +227,16 @@ body {
 
 @media (max-width: 768px) { 
 
+    body {
+        text-align: center;
+    }
+
     .nav {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
 
     .nav-head {
@@ -245,8 +250,35 @@ body {
         display: none;
     }
 
+    .main {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+
+    .stories {
+        gap: 20px;
+        margin-left: 0px;
+    }
+    .story {
+        justify-content: center;
+    }
+    .story-img-container {
+        width: 50px;
+        height: 50px;
+    }
+
     .hide-on-mobile {
         display: none;
     }
-
+    
+    .reels {
+        width: 100%;
+    }
+    
+    .post {
+        width: 150px;
+        height: 250px;
+    }
 }
