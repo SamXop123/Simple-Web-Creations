@@ -226,5 +226,27 @@ body {
 }
 
 @media (max-width: 768px) { 
-    
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-head {
+        text-align: center;
+    }
+    .search {
+        background: none;
+        border: none;
+        width: 0;
+        height: 0;
+        display: none;
+    }
+
+    .hide-on-mobile {
+        display: none;
+    }
+
 }
