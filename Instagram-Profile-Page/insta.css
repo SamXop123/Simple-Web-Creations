@@ -237,7 +237,11 @@ body {
         justify-content: center;
         align-items: center;
         width: 100%;
-        gap: 100px;
+        gap: 40px;
+    }
+
+    .right-btns {
+        gap: 10px;
     }
 
     .nav-head {
@@ -276,8 +280,36 @@ body {
         left: 190px;
     }
 
+    .content {
+        align-items: center;
+    }
+
+    .top-row {
+        justify-content: center;
+        gap: 10px;
+        margin-right: 0;
+    }
+
+    .name {
+        font-size: 30px;
+    }
+
+    .flw-btn {
+        padding: 8px;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .heart {
+        padding: 6px 16px;
+    }
+
+    .last-row {
+        font-size: 12px;
+    }
+
     .stories {
-        gap: 20px;
+        gap: 10px;
         margin-left: 19px;
     }
 
