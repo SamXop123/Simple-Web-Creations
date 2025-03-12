@@ -1,9 +1,12 @@
 
 body {
     background-color: bisque;
+    background-image: url('deer-forest.jpg');
+    background-size: cover;
 }
 
 .main {
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +18,7 @@ body {
 .title {
     text-align: center;
     color: red;
-    font-size: 72px;
+    font-size: 100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 1000;
 }
