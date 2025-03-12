@@ -1,0 +1,17 @@
+
+body {
+    background-color:bisque;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.text {
+    text-align: center;
+    color: red;
+    font-size: 72px;
+}
