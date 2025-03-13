@@ -15,12 +15,17 @@ body {
     width: 100%;
 }
 
-.title {
+.heading {
     text-align: center;
-    color: red;
+    color: rgb(255, 0, 0);
     font-size: 100px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'LEMON MILK', 'Impact', 'Chatlong', 'Trebuchet MS', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 1000;
+    line-height: 1.3;
+    text-transform: uppercase;
+
+    
+
 }
 
 .description {
