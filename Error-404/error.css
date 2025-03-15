@@ -81,14 +81,6 @@ body {
     color: rgb(255, 255, 255);
 }
 
-/* .underline {
-    width: 200px;
-    height: 100px;
-    border-bottom: 6px solid;
-    border-image-source: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10"><path d="M0,5 Q25,10 50,5 T100,5" stroke="blue" fill="transparent" stroke-width="2"/></svg>');
-    border-image-slice: 0 0 100% 0;
-    border-image-repeat: round;
-} */
 
 .underline {
     margin-top: -40px;
