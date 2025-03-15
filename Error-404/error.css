@@ -56,3 +56,8 @@ body {
     color: rgb(181, 152, 152);
 }
 
+.suggestions {
+    font-size: 18px;
+    font-family: 'Gabriola', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
