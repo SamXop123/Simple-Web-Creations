@@ -37,6 +37,12 @@ body {
     1px 20px 20px rgba(16, 16, 16, 0.2),
     1px 25px 40px rgba(16, 16, 16, 0.2),
     1px 30px 80px rgba(16, 16, 16, 0.3);
+
+    border-right: 5px solid rgb(72, 10, 10);
+    border-radius: 50px; 
+    padding-right: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .description {
@@ -53,7 +59,7 @@ body {
     font-size: 20px;
     font-weight: bolder;
     font-family: 'Comic Sans MS', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(181, 152, 152);
+    color: rgb(255, 0, 0);
 }
 
 .suggestions {
