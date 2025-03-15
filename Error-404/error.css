@@ -44,9 +44,9 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 8px;
-    border-left: 5px solid red;
+    border-left: 5px solid rgb(72, 10, 10);
     border-radius: 50px; 
-    
+    padding-left: 30px;
 }
 
 .desc {
