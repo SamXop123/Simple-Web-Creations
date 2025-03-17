@@ -43,11 +43,11 @@ body {
     1px 30px 80px rgba(16, 16, 16, 0.3);
 
     border-right: 5px solid rgb(72, 10, 10);
-    border-top: 5px solid rgb(72, 10, 10);
+    border-bottom: 5px solid rgb(72, 10, 10);
     border-radius: 0px 50px 50px 0px; 
     padding-right: 30px;
-    padding-top: 40px;
-    padding-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 30px;
     margin-left: 150px;
 }
 
