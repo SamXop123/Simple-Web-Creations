@@ -43,7 +43,8 @@ body {
     1px 30px 80px rgba(16, 16, 16, 0.3);
 
     border-right: 5px solid rgb(72, 10, 10);
-    border-radius: 50px; 
+    border-top: 5px solid rgb(72, 10, 10);
+    border-radius: 0px 50px 50px 0px; 
     padding-right: 30px;
     padding-top: 70px;
     padding-bottom: 80px;
