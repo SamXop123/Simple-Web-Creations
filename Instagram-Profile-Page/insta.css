@@ -40,7 +40,6 @@ body {
     padding-left: 15px;
 }
 
-
 .search {
     background-color: #e4e4e4;
     border: 1px solid rgb(168, 168, 168);
@@ -93,7 +92,6 @@ body {
     position: relative;
     left: 194px;
     bottom: 10px;
-    
 }
 
 .content {
@@ -224,6 +222,7 @@ body {
     transform: scale(1.04);
     transition: 0.2s ease-in-out;
 }
+
 
 @media (max-width: 768px) { 
 
