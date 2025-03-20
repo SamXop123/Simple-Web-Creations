@@ -97,8 +97,6 @@
     font-style: normal;
 }
 
-
-
 body {
     background-image: url('./media/download.jpg');
     /* background-repeat: no-repeat; */
@@ -106,7 +104,7 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
-    text-align: center; /* Center content horizontally */
+    text-align: center; 
 }
 
 nav {
@@ -114,9 +112,9 @@ nav {
     height: 50px;
     background-color: plum;
     display: flex;
-    justify-content: space-between; /* Space between logo and search bar */
+    justify-content: space-between; 
     align-items: center;
-    margin: 20px auto 0 auto; /* Center nav horizontally and add top margin */
+    margin: 20px auto 0 auto;
 }
 
 .logo {
