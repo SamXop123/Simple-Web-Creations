@@ -8,7 +8,7 @@ body {
     height: 270vh;
     margin: 0;
     display: flex;
-    flex-direction: column; /* Stack children vertically */
+    flex-direction: column; 
     justify-content: space-between;
 }
 
@@ -269,12 +269,11 @@ input {
 
 .card-container {
     display: flex;
-    flex-wrap: wrap; /* This will allow cards to wrap to the next line if more in no. */
+    flex-wrap: wrap; 
     justify-content: space-evenly; 
     gap: 70px;
     margin-top: 10px;
 }
-
 
 .card {
     width: 400px;
@@ -284,7 +283,6 @@ input {
     text-align: center;
     margin-bottom: 30px;
 }
-
 
 .card:hover {
     background-color: rgb(214, 231, 255);
@@ -369,7 +367,7 @@ input {
 .footer-section h2 {
     font-size: 20px;
     margin-bottom: 10px;
-    color: #ffd700; /* Gold color for headings */
+    color: #ffd700; /* Gold color */
 }
 
 .footer-section p {
@@ -397,7 +395,6 @@ input {
     color: #ffd700;
     padding-left: 5px;
 }
-
 
 .social-links {
     display: flex;
