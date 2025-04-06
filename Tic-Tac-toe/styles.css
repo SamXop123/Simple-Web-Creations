@@ -16,3 +16,28 @@ body, html {
     filter: blur(3px);
 }
 
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    text-align: center;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+    /* For Glass effect */
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(5px); 
+    -webkit-backdrop-filter: blur(10px); 
+    border-radius: 15px; 
+    padding: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
