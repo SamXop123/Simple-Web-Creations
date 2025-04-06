@@ -41,3 +41,31 @@ body, html {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
+.container {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+.box {
+    width: 100Apx;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.8); 
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    transition: 0.2s ease-in;
+}
