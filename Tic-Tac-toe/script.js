@@ -53,6 +53,21 @@ function checkWinner() {
     return false;
 }
 
+function checkDraw() {
+    let Count = 0;
+    arr.forEach((box) => {
+        if (box.textContent === "X" || box.textContent === "O") {
+            Count++;
+        }
+    });
+    if (Count === 9) {
+        winMessage.textContent = "It's a tie!";
+        disableBoard();
+        return true;
+    }
+    return false;
+}
+
 
 let currentPlayer = "X";
 arr.forEach((box, index) => {
