@@ -12,6 +12,38 @@ let box9 = document.getElementById("box9");
 
 let arr = [box1, box2, box3, box4, box5, box6, box7, box8, box9];
 
+const combinations = [
+    [arr[0], arr[1], arr[2]], [arr[3], arr[4], arr[5]], 
+    [arr[6], arr[7], arr[8]], [arr[0], arr[3], arr[6]],
+    [arr[1], arr[4], arr[7]], [arr[2], arr[5], arr[8]],
+    [arr[0], arr[4], arr[8]], [arr[2], arr[4], arr[6]]
+];
+
+
+function checkWinner() {
+    for (let combination of combinations) {
+        let xCount = 0;
+        let oCount = 0;
+
+        combination.forEach((box) => {
+            if (box.textContent === "X") {
+                xCount++;
+            } else if (box.textContent === "O") {
+                oCount++;
+            }
+        });
+
+        if (xCount === 3) {
+            winMessage.textContent = "X wins!";
+            return true;
+        } else if (oCount === 3) {
+            winMessage.textContent = "O wins!";
+            return true;
+        }
+    }
+    return false;
+}
+
 
 let currentPlayer = "X";
 arr.forEach((box, index) => {
@@ -24,28 +56,29 @@ arr.forEach((box, index) => {
                 currentPlayer = "X";
             }
         }
+        checkWinner();
     });
 });
 
 
 
-combinations.forEach((element) => {
-    let xCount = 0;
-    let oCount = 0;
+// combinations.forEach((element) => {
+//     let xCount = 0;
+//     let oCount = 0;
 
-    element.forEach((box) => {
-        if (box.textContent === "X") {
-            xCount++;
-        } else if (box.textContent === "O") {
-            oCount++;
-        }
-    });
+//     element.forEach((box) => {
+//         if (box.textContent === "X") {
+//             xCount++;
+//         } else if (box.textContent === "O") {
+//             oCount++;
+//         }
+//     });
 
-    if (xCount === 3) {
-        winMessage.textContent = "X wins!";
-    } else if (oCount === 3) {
-        winMessage.textContent = "O wins!";
-    }
-});
+//     if (xCount === 3) {
+//         winMessage.textContent = "X wins!";
+//     } else if (oCount === 3) {
+//         winMessage.textContent = "O wins!";
+//     }
+// });
 
 
