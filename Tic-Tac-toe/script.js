@@ -81,28 +81,8 @@ arr.forEach((box, index) => {
             }
         }
         checkWinner();
+        checkDraw();
     });
 });
-
-
-
-// combinations.forEach((element) => {
-//     let xCount = 0;
-//     let oCount = 0;
-
-//     element.forEach((box) => {
-//         if (box.textContent === "X") {
-//             xCount++;
-//         } else if (box.textContent === "O") {
-//             oCount++;
-//         }
-//     });
-
-//     if (xCount === 3) {
-//         winMessage.textContent = "X wins!";
-//     } else if (oCount === 3) {
-//         winMessage.textContent = "O wins!";
-//     }
-// });
 
 
