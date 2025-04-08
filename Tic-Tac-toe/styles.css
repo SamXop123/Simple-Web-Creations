@@ -85,9 +85,18 @@ body, html {
     font-size: 2rem;
     cursor: pointer;
     border-radius: 10px;
+    color: rgb(99, 19, 19);
+    font-family: 'LEMON MILK';
 }
 
 .box:hover {
     transform: scale(1.05);
     transition: 0.2s ease-in;
 }
+
+
+.win-message {
+    color: white;
+    font-size: 3dpx;
+}
+
