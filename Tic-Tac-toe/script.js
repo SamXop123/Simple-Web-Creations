@@ -20,6 +20,13 @@ const combinations = [
 ];
 
 
+function disableBoard() {
+    arr.forEach((box) => {
+        box.style.pointerEvents = "none";
+    });
+}
+
+
 function checkWinner() {
     for (let combination of combinations) {
         let xCount = 0;
@@ -35,9 +42,11 @@ function checkWinner() {
 
         if (xCount === 3) {
             winMessage.textContent = "X wins!";
+            disableBoard();
             return true;
         } else if (oCount === 3) {
             winMessage.textContent = "O wins!";
+            disableBoard();
             return true;
         }
     }
