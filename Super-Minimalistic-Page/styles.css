@@ -42,4 +42,40 @@ body {
     font-weight: 600;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    margin-top: 100px;
+    font-size:large;
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+}
+
+.box {
+    margin: 10px 70px;
+    background-color: #1e1e1e;
+    color: #d9d698;
+    padding: 1rem;
+    padding-left: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    width: 35%;
+    
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(1px); 
+    -webkit-backdrop-filter: blur(5px); 
+    border-radius: 15px; 
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+
+
 
