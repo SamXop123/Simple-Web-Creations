@@ -1,0 +1,45 @@
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'JetBrains Mono', 'Inconsolata', 'Consola Mono';
+    display: flex;
+    flex-direction: column;
+    background-image: url('4k-black.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    background-color: black;
+    margin: 20px 
+}   
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 100px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-head {
+    color: white;
+    font-size: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+
