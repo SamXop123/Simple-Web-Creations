@@ -110,3 +110,18 @@ body, html {
     font-size: 3dpx;
 }
 
+
+.restart-button button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #156c5f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.restart-button button:hover {
+    background-color: #0e4d42;
+}
