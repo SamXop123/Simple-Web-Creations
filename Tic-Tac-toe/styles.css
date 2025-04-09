@@ -125,3 +125,19 @@ body, html {
 .restart-button button:hover {
     background-color: #0e4d42;
 }
+
+
+.made-by {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(30, 30, 30, 0.8); 
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-family: monospace;
+    font-size: 14px;
+    z-index: 999;
+    transition: opacity 0.3s ease;
+  }
+  
