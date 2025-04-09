@@ -91,7 +91,33 @@ pre {
     height: 400px;
 }
 
+.arrow {
+    position: relative;
+    bottom: 540px;
+    left: 145px;
+    width: 75px;
+    transform: rotate(80deg);
+    border-radius: 50px;
+}
 
+.red-line {
+    position: relative;
+    bottom: 550px;
+    left: 130px;
+    width: 45px;
+    transform: rotate(30deg);
+    border-radius: 50px;
+}
+
+.let {
+    color: red;
+    font-weight: 900;
+    font-size: 25px;
+    position:relative;
+    bottom: 700px;
+    left: 210px;
+    transform: rotate(-10deg);
+}
 
 .main-title {
     color: rgb(176, 176, 176);
