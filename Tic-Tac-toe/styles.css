@@ -141,3 +141,14 @@ body, html {
     transition: opacity 0.3s ease;
   }
   
+.made-by a {
+    color: #4ea1f3;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.made-by:hover {
+    opacity: 0.8;
+}
+  
