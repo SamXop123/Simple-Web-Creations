@@ -26,6 +26,14 @@ function disableBoard() {
     });
 }
 
+function showRestartButton() {
+    const restartButton = document.querySelector(".restart-button");
+    restartButton.style.display = "block"; 
+}
+
+function restartGame() {
+    location.reload();
+}
 
 function checkWinner() {
     for (let combination of combinations) {
@@ -43,10 +51,12 @@ function checkWinner() {
         if (xCount === 3) {
             winMessage.textContent = "X wins!";
             disableBoard();
+            showRestartButton(); 
             return true;
         } else if (oCount === 3) {
             winMessage.textContent = "O wins!";
             disableBoard();
+            showRestartButton(); 
             return true;
         }
     }
@@ -63,11 +73,11 @@ function checkDraw() {
     if (Count === 9) {
         winMessage.textContent = "It's a tie!";
         disableBoard();
+        showRestartButton(); 
         return true;
     }
     return false;
 }
-
 
 let currentPlayer = "X";
 arr.forEach((box, index) => {
