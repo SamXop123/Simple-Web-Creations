@@ -201,6 +201,47 @@ body {
 }
 
 
+.social-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr)); /* Smaller cards for simpler content */
+    gap: 20px;
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.social-item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex; /* Center the h3 */
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    cursor: pointer;
+}
+
+.social-item:hover {
+    transform: scale(1.05);
+}
+
+.social-link h3 {
+    color: #d9d698;
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.social-link:hover h3 {
+    color: white;
+}
+
+
 footer {
     text-align: center;
     padding: 20px;
