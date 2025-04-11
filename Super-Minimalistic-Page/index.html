@@ -1,49 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minimal Portfolio</title>
+    <title>Minimal Portfolio | Sameer</title>
     <link rel="stylesheet" href="styles.css">
     <link href="S.png" rel="icon">
 </head>
-
 <body>
+    <header class="nav" id="nav-bar">
+        <div class="nav-head">Portfolio</div>
+        <nav class="nav-links">
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="mailto:sameerprajapati066@gmail.com" target="_blank">Contact</a>
+        </nav>
+    </header>
 
-    <div class="nav">
-        <div class="nav-head">
-            Portfolio
-        </div>
-        <div class="nav-links">
-            <a href=#about target="_blank"> About </a>
-            <a href=#work target="_blank"> Work </a>
-            <a href=#contact target="_blank"> Contact </a>
-        </div>
-    </div>
-
-
-    <div class="container">
-        <div class="main">
-          <div class="box" id="box1">
-            <pre>
-                <code class="language-js">
+    <main class="container" id="about">
+        <section class="main">
+            <div class="box" id="box1">
+                <pre><code class="language-js">
     const Sameer = {
+
         name: "Sameer Prajapati",
         aliases: ["SamXop", "Dot_NotSam"],
         university: "VIT",
         degree: "B.Tech in Computer Science",
-        hobbies: ["Piano", "Photography", "Gaming", "Football"]
+        hobbies: ["Piano", "Photography", "Gaming", "Football"],
         status: "Learning & Building Cool Stuff"
+        
     };
-                </code>
-            </pre>
-        </div>
-
-        <div class="box" id="box2">
-            <pre>
-                <code>
+                </code></pre>
+            </div>
+            <div class="box" id="box2">
+                <pre><code>
     const skills = {
+
         programmingLanguages: ["Python", "Java", "C++", "C"],
 
         webDevelopment: {
@@ -53,24 +46,26 @@
 
         tools: ["Github", "VS Code", "Pycharm", "Chrome DevTools"],
 
-        creativity: ["Photoshop", "Premiere Pro", "Figma", "Canva"]
+        creativity: ["Photoshop", "Premiere Pro", "Figma", "Canva"],
 
         miscellaneous: ["Windows", "Jinja", "Markdown", "Postman"]
+
     };
-                      
-                </code>
-            </pre>
-        </div>
+                </code></pre>
+            </div>
+        </section>
+        <h1 class="main-title">hi! it's <span class="main-autotype"></span></h1>
+        <img src="arrow.gif" alt="scroll down arrow" class="arrow">
+        <img src="red-line.png" alt="decorative line" class="red-line">
+        <p class="let">let📈</p>
+    </main>
 
-    </div>
+    
 
-    <div class="main-title">hi! it's <span class="main-autotype"></span></div><br>
-    <img src="arrow.gif" alt="arrow" class="arrow">
-    <img src="red-line.png" alt="arrow" class="red-line">
-    <p class="let">let</p>
+    <footer>
+        <p>&copy; 2025 Sameer Prajapati. All rights reserved.</p>
+    </footer>
 
-</div>
-   
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
@@ -81,7 +76,5 @@
             loop: true,
         });
     </script>
-
 </body>
-
 </html>
