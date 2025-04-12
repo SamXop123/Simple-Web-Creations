@@ -42,6 +42,11 @@ document.querySelectorAll('.cell').forEach(button => {
             firstNumber = '';
             operator = '';
         }
+        else if (value === 'CE') { 
+            currentNumber = ''; 
+            firstNumber = '';
+            operator = '';
+        }
 
         updateDisplay();
     });
