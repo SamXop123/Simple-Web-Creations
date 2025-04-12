@@ -57,6 +57,7 @@ body {
 
 .cell:hover {
     cursor: pointer;
+    transform: scale(1.03);
 }
 
 #dark {
