@@ -47,3 +47,34 @@ document.querySelectorAll('.cell').forEach(button => {
     });
 });
 
+function calculate() {
+    let num1 = parseFloat(firstNumber);
+    let num2 = parseFloat(currentNumber);
+    let result = 0;
+
+    if (operator === '+') {
+        result = num1 + num2;
+    } else if (operator === '-') {
+        result = num1 - num2;
+    } else if (operator === 'x') {
+        result = num1 * num2;
+    } else if (operator === '/') {
+        if (num2 !== 0) { 
+            result = num1 / num2;
+        } else {
+            result = 'Error'; 
+        }
+    }
+
+    currentNumber = result.toString();
+    firstNumber = '';
+    operator = ''; 
+}
+
+function updateDisplay() {
+    if (currentNumber === '') {
+        display.value = '0'; 
+    } else {
+        display.value = currentNumber; 
+    }
+}
