@@ -55,3 +55,57 @@ body {
 .pal_head {
     font-family: 'LEMON MILK';
 }
+
+.input {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    background: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    color: rgb(4, 0, 111);
+
+}
+
+input::placeholder {
+    color: rgb(30, 30, 30); 
+    font-style: italic; 
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+button {
+    background-color: rgb(0, 119, 255);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 20px 5px 20px;
+    font-weight: bold;
+    font-family: 'Atma';
+    color: white;
+    font-size: 18px;
+}
+
+button:hover {
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    transform: scale(1.1);
+    background-color: blue;
+}
+
+.win-message {
+    display: none;
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
