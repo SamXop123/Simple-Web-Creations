@@ -109,3 +109,33 @@ button:hover {
     font-size: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.about {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.about-head {
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.about-pal {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+    margin: 0 175px;
+    font-size: 17px;
+    font-family: 'Berlin Sans FB', Georgia, 'Times New Roman', Times, serif;
+    display: none;
+}
