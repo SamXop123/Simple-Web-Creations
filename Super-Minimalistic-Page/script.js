@@ -40,3 +40,13 @@ document.querySelectorAll('.box, .work-item').forEach(el => {
     el.style.transition = 'opacity 0.5s, transform 0.5s';
     observer.observe(el);
 });
+
+
+// let message = document.querySelector("#sent-message")
+// let button = document.querySelector("#form-btn")
+
+// button.addEventListener("click", () => {
+//     message.style.color = "green";
+//     message.textContent = "Message sent successfully!"
+
+// });
