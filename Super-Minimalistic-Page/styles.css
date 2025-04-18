@@ -336,7 +336,32 @@ body {
     margin-bottom: 15px;
 }
 
+.certificate-link:hover h3 {
+    color: #d9d698;
+}
 
+.certificate-button {
+    background: #d9d698;
+    color: #1e1e1e;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-family: 'JetBrains Mono', 'Inconsolata', 'Consola Mono', monospace;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    position: relative;
+    z-index: 1; /* Button above background logo */
+}
+
+.certificate-button:hover {
+    background: #ffffff;
+    transform: scale(1.05);
+}
+
+.certificate-button:active {
+    transform: scale(0.95);
+}
 
 
 footer {
