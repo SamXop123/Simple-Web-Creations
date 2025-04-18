@@ -274,6 +274,36 @@ body {
     z-index: 0;
 }
 
+.certificate-item:hover::before {
+    opacity: 0.2; /* Subtle logo visibility on hover */
+}
+
+.certificate-item[data-logo]::before {
+    background-image: url(''); /* Default, overridden by data-logo */
+}
+
+.certificate-item[data-logo="freecodecamp.png"]::before {
+    background-image: url('freecodecamp.png');
+}
+.certificate-item[data-logo="deeplearningai.png"]::before {
+    background-image: url('deeplearningai.png');
+}
+.certificate-item[data-logo="postman1.png"]::before {
+    background-image: url('postman1.png');
+}
+.certificate-item[data-logo="matlab.png"]::before {
+    background-image: url('matlab.png');
+}
+.certificate-item[data-logo="hackerrank.png"]::before {
+    background-image: url('hackerrank.png');
+}
+.certificate-item[data-logo="linkedin.webp"]::before {
+    background-image: url('linkedin.webp');
+}
+.certificate-item[data-logo="ibm.png"]::before {
+    background-image: url('ibm.png');
+}
+
 
 
 
