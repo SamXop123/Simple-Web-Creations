@@ -242,6 +242,41 @@ body {
 }
 
  
+.certificate-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.certificate-item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, background-image 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.certificate-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 0;
+}
+
+
+
+
 footer {
     text-align: center;
     padding: 20px;
@@ -256,3 +291,5 @@ footer {
     .arrow, .red-line, .let { display: none; }
     .work-grid { grid-template-columns: 1fr; }
 }
+
+
