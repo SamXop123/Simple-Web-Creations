@@ -275,11 +275,11 @@ body {
 }
 
 .certificate-item:hover::before {
-    opacity: 0.2; /* Subtle logo visibility on hover */
+    opacity: 0.2; 
 }
 
 .certificate-item[data-logo]::before {
-    background-image: url(''); /* Default, overridden by data-logo */
+    background-image: url(''); 
 }
 
 .certificate-item[data-logo="freecodecamp.png"]::before {
@@ -311,7 +311,7 @@ body {
     height: 100%;
     cursor: pointer;
     position: relative;
-    z-index: 1; /* Content above background logo */
+    z-index: 1; 
 }
 
 .certificate-item:hover {
@@ -351,7 +351,7 @@ body {
     cursor: pointer;
     transition: background 0.3s, transform 0.2s;
     position: relative;
-    z-index: 1; /* Button above background logo */
+    z-index: 1; 
 }
 
 .certificate-button:hover {
