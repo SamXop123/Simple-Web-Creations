@@ -304,6 +304,38 @@ body {
     background-image: url('ibm.png');
 }
 
+.certificate-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    height: 100%;
+    cursor: pointer;
+    position: relative;
+    z-index: 1; /* Content above background logo */
+}
+
+.certificate-item:hover {
+    transform: scale(1.05);
+}
+
+.certificate-link h3 {
+    color: white;
+    margin: 0 0 10px 0;
+    font-size: 20px;
+}
+
+.certificate-link code {
+    display: block;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    font-size: 14px;
+    color: #d9d698;
+    white-space: pre-wrap;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
 
 
 
