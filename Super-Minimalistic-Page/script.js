@@ -34,7 +34,7 @@ const observer = new IntersectionObserver((entries) => {
     });
 }, { threshold: 0.1 });
 
-document.querySelectorAll('.box, .work-item').forEach(el => {
+document.querySelectorAll('.box, .work-item, .social-item, .certificate-item').forEach(el => {
     el.style.opacity = 0;
     el.style.transform = 'translateY(20px)';
     el.style.transition = 'opacity 0.5s, transform 0.5s';
