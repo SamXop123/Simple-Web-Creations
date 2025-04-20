@@ -41,3 +41,18 @@ document.querySelectorAll('.box, .work-item, .social-item, .certificate-item').f
     observer.observe(el);
 });
 
+
+// Contact form handling
+const contactForm = document.getElementById('contact-form');
+const sentMessage = document.getElementById('sent-message');
+
+contactForm.addEventListener('submit', (e) => {
+    e.preventDefault(); 
+    sentMessage.textContent = 'Message sent! Thank you for reaching out.';
+    sentMessage.classList.add('show');
+    contactForm.reset(); 
+    setTimeout(() => {
+        sentMessage.classList.remove('show');
+        sentMessage.textContent = '';
+    }, 3000); 
+});
