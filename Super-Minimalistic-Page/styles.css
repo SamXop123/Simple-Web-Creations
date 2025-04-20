@@ -364,19 +364,43 @@ body {
 }
 
 
+
+
+
+
 footer {
     text-align: center;
     padding: 20px;
     color: #888;
 }
 
+
 @media (max-width: 768px) {
+
     .nav { margin: 10px 20px; }
-    .main { flex-direction: column; align-items: center; }
-    .box { width: 80%; margin: 10px 0; }
-    .main-title { right: 0; font-size: 30px; }
+
+    .main { 
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .box { 
+        width: 80%; 
+        margin: 10px 0; 
+    }
+
+    .main-title { 
+        right: 0; 
+        font-size: 30px; 
+    }
+
     .arrow, .red-line, .let { display: none; }
     .work-grid { grid-template-columns: 1fr; }
+
+    .contact-content {
+        width: 90%;
+        padding: 15px;
+    }
 }
 
 
