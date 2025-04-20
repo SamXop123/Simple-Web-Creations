@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    position: relative;
+    height: 644px;
+    border-bottom: 3px solid red;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 255, 0.6);
+}
+
+.main::before {
+    content: "";
+    background-image: url("assets/bg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3; 
+    z-index: -1;
+}
+
+nav {
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+}
+
+.hero {
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    
+}
+
+.heading {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    font-size: 58px;
+    font-weight: 1000;
+}
+
+.subhead {
+    font-size: 20px;
+}
+
+.bottom-subhead {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.form input {
+    color: white;
+    padding: 15px;
+    width: 20vw;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.form input::placeholder {
+    color:white;
+    font-size: 15px;
+}
+
+.form button {
+    padding: 11px;
+    width: 14vw;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    position: relative;
+    top:2px;
+}
+
+.form button:hover {
+    cursor: pointer;
+}
+
+.second-main {
+    width: 100%;
+    color: white;
+}
+
+.section-head {
+    margin: 80px 130px;
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.card {
+    border-radius: 10%;
+    width: 160px;
+    height: 230px;
+    transition: 0.3s ease;
+}
+
+.trending-img {
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.third-main {
+    width: 100%;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+}
+
+.squares {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10%;
+    padding: 20px 25px;
+    width: 17vw;
+    height: 200px;
+    background: linear-gradient(rgb(23, 11, 54), rgb(71, 37, 37));
+    position: relative;
+}
+
+.square-head {
+    font-size: 22px;
+}
+
+.square-desc {
+    font-size: 13px;
+    color: rgb(167, 167, 167);
+}
+
+.img-container {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.fourth-main {
+    color: white;
+
+}
+
+.query-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.query-card {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    background-color: #302c2c;
+    padding: 19px 17px;
+    transition: 1s ease;
+}
+
+.query-card:hover {
+    background-color: #4b4747;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.question {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.rd-t-wtch {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 10px;
+}
+
+.form-override input {
+    color: white;
+    width: 30vw;
+    border-radius: 7px;
+    background-color: #1e1d1d;
+    opacity: 0.3;
+    border: 2px solid rgb(156, 156, 156);
+}
+
+.form-override button {
+    border-radius: 6px;
+    font-weight: 510;
+}
+
+.footer {
+    color: rgb(152, 152, 152);
+    margin-top: 80px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.call {
+    font-size: small;
+    margin-bottom: 30px;
+    margin-left: 135px;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.link-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.btn-bottom {
+    margin-top: 50px;
+    margin-left: 135px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn-bottom svg {
+    color: white;
+    width: 23px;
+}
+
+.bottom-most {
+    margin-top: 30px;
+    margin-left: 135px;
+    margin-bottom: 100px;
+    font-size: 14px;
+}
+
+
+/* for responsiveness */
+@media (max-width: 1000px) {
+
+
+    nav {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    nav span {
+        margin-top: 25px;
+    }
+
+    .nav-div {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    .btn-red-sm {
+        width: 80px;
+    }
+
+    .heading {
+        font-size: 38px;
+    }
+
+    .bottom-subhead {
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .form input {
+        width: 40vw;
+    }
+
+    .form button {
+        position: relative;
+        top: 0px;
+        padding: 5px;
+        font-size: 10px;
+        width: 20vw;
+        height: 52px;
+    }
+
+    .section-head {
+        margin: 60px 0px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .card-container {
+        flex-wrap: wrap;
+    }
+
+    .container-2 {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .squares {
+        width: 30vw;
+    }
+
+    .square-head {
+        font-size: 17px;
+    }
+
+    .square-desc {
+        font-size: 9px;
+    }
+
+    .img-container svg {
+        width: 50px;
+        height: 50px;
+    }
+
+    .query-card {
+        padding: 13px 16px;
+    }
+
+    .question {
+        font-size: 20px;
+    }
+
+    .call {
+        text-align: left;
+        margin-left: 30px;
+    }
+
+    .footer {
+        margin-left: 50px;
+    }
+
+    .link-section {
+        font-size: 10px;
+    }
+
+    .btn-bottom {
+        margin-left: 15px;
+        width: 110px;
+    }
+
+    .bottom-most {
+        margin-left: 15px;
+    }
+
+}
