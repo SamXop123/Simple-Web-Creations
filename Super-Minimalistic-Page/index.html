@@ -17,7 +17,7 @@
             <a href="#work">Work</a>
             <a href="#socials">Socials</a>
             <a href="#certificates">Certificates</a>
-            <a href="mailto:sameerprajapati066@gmail.com" target="_blank">Contact</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
@@ -266,17 +266,15 @@
 
     
     <section class="container" id="contact">
-        <h1 id="contact-head">
-            Contact
-        </h1>
-        <div class="content">
-            <form id="contact-form" method="get">
-                <input type="text" name="name" placeholder="enter your name">
-                <input type="text" name="age" placeholder="enter your age">
-                <textarea type="text" id="form-textarea"> </textarea>
-                <button id="form-btn"> Submit </button>
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-content">
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="number" name="age" placeholder="Enter your age" min="1" required>
+                <textarea name="message" placeholder="Enter your message" required></textarea>
+                <button type="submit" class="contact-button">Submit</button>
             </form>
-            <div id="sent-message"> </div>
+            <div id="sent-message"></div>
         </div>
     </section>
 
