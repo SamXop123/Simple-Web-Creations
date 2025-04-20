@@ -41,12 +41,3 @@ document.querySelectorAll('.box, .work-item, .social-item, .certificate-item').f
     observer.observe(el);
 });
 
-
-// let message = document.querySelector("#sent-message")
-// let button = document.querySelector("#form-btn")
-
-// button.addEventListener("click", () => {
-//     message.style.color = "green";
-//     message.textContent = "Message sent successfully!"
-
-// });
