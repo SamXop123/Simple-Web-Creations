@@ -389,6 +389,34 @@ body {
     gap: 15px;
 }
 
+#contact-form input,
+#contact-form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #d9d698;
+    font-family: 'JetBrains Mono', 'Inconsolata', 'Consola Mono', monospace;
+    font-size: 14px;
+    outline: none;
+    transition: background 0.3s;
+}
+
+#contact-form input::placeholder,
+#contact-form textarea::placeholder {
+    color: #888;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#contact-form textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
 
 
 
