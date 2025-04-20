@@ -417,7 +417,40 @@ body {
     resize: vertical;
 }
 
+.contact-button {
+    background: #d9d698;
+    color: #1e1e1e;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'JetBrains Mono', 'Inconsolata', 'Consola Mono', monospace;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    align-self: center;
+}
 
+.contact-button:hover {
+    background: #ffffff;
+    transform: scale(1.05);
+}
+
+.contact-button:active {
+    transform: scale(0.95);
+}
+
+#sent-message {
+    margin-top: 15px;
+    color: #d9d698;
+    font-size: 16px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+#sent-message.show {
+    opacity: 1;
+}
 
 
 footer {
