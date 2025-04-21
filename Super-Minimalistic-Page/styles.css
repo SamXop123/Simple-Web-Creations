@@ -127,12 +127,28 @@ body {
     margin-bottom: 20px;
 }
 
+#work {
+    margin: 200px 0;
+}
+
 .work-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     width: 80%;
     margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+    .work-grid {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 500px) {
+    .work-grid {
+        grid-template-columns: 1fr; 
+    }
 }
 
 /* .work-grid:hover {
@@ -207,6 +223,18 @@ body {
     gap: 20px;
     width: 80%;
     margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+    .social-grid {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 500px) {
+    .social-grid {
+        grid-template-columns: 1fr; 
+    }
 }
 
 .social-item {
