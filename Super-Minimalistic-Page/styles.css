@@ -466,7 +466,22 @@ body {
     border-radius: 10px;
     text-align: center;
 }
-
+.skill-item h3 {
+    color: #d9d698;
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+.progress-bar {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    height: 10px;
+    overflow: hidden;
+}
+.progress {
+    background: #d9d698;
+    height: 100%;
+    transition: width 0.5s ease;
+}
 
 
 footer {
