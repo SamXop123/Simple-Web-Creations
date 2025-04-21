@@ -453,6 +453,22 @@ body {
 }
 
 
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    width: 80%;
+    margin-bottom: 50px;
+}
+.skill-item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
 footer {
     text-align: center;
     padding: 20px;
