@@ -96,3 +96,49 @@ h3 {
     text-align: center;
 }
 
+.bookmark {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    margin-bottom: 0.75rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bookmark:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.bookmark a {
+    color: #1e90ff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.bookmark a:hover {
+    color: #0066cc;
+    text-decoration: underline;
+}
+
+.bookmark button {
+    background: transparent;
+    color: #ff4757;
+    font-size: 0.9rem;
+    font-weight: normal;
+    padding: 0.25rem 0.75rem;
+    border: 1px solid #ff4757;
+    border-radius: 6px;
+    margin-left: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.bookmark button:hover {
+    background: #ff4757;
+    color: white;
+    transform: scale(1);
+}
