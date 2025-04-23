@@ -1,1 +1,22 @@
+body {
+    background: linear-gradient(135deg, #ff6b6b, #ff8787, #ff4757, #ff6b6b);
+    background-size: 600% 600%;
+    animation: redGradientShift 15s ease infinite;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+@keyframes redGradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
 
