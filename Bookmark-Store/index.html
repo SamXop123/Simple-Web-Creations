@@ -3,21 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bookmark your favorite sites!</title>
+    <title>Bookmark Your Favorite Sites</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="container">
+        <h2>Bookmark Your Favorites</h2>
 
-    <h2>Bookmark Your Favorite Websites</h2>
+        <div class="input-group">
+            <input type="text" id="siteName" placeholder="Website Name">
+            <input type="text" id="siteURL" placeholder="https://example.com">
+            <button id="addBtn" onclick="addBookmark()">Add Bookmark</button>
+            <button id="saveBtn" onclick="saveBookmark()" style="display: none;">Save Changes</button>
+        </div>
 
-    <input type="text" id="siteName" placeholder="Website Name">
-    <input type="text" id="siteURL" placeholder="https://example.com">
-    <button onclick="addBookmark()">Add Bookmark</button>
-
-    <h3>Saved Bookmarks</h3>
-    <div id="bookmarksList"></div>
+        <h3>Saved Bookmarks</h3>
+        <div id="bookmarksList"></div>
+    </div>
 
     <script src="script.js"></script>
-    
 </body>
 </html>
