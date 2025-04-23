@@ -50,3 +50,49 @@ h2 {
     letter-spacing: 1px;
 }
 
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input {
+    padding: 0.75rem;
+    border: 2px solid #dfe6e9;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: #f7f9fc;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #ff6b6b;
+    background: #fff;
+    box-shadow: 0 0 8px rgba(255, 107, 107, 0.3);
+}
+
+button {
+    padding: 0.75rem;
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: #e63946;
+    transform: scale(1.05);
+}
+
+h3 {
+    font-size: 1.3rem;
+    color: #2c3e50;
+    margin: 2rem 0 1rem;
+    text-align: center;
+}
+
