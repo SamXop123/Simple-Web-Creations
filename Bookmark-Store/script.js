@@ -32,3 +32,12 @@ function addBookmark() {
     document.getElementById("siteName").value = "";
     document.getElementById("siteURL").value = "";
 }
+
+function editBookmark(div, link) {
+    editingBookmark = { div, link };
+    document.getElementById("siteName").value = link.textContent;
+    document.getElementById("siteURL").value = link.href;
+    document.getElementById("addBtn").style.display = "none";
+    document.getElementById("saveBtn").style.display = "block";
+}
+
