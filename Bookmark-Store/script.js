@@ -41,3 +41,20 @@ function editBookmark(div, link) {
     document.getElementById("saveBtn").style.display = "block";
 }
 
+function saveBookmark() {
+    if (!editingBookmark) return;
+
+    const name = document.getElementById("siteName").value;
+    const url = document.getElementById("siteURL").value;
+
+    if (!name || !url) return;
+
+    editingBookmark.link.textContent = name;
+    editingBookmark.link.href = url;
+
+    document.getElementById("siteName").value = "";
+    document.getElementById("siteURL").value = "";
+    document.getElementById("addBtn").style.display = "block";
+    document.getElementById("saveBtn").style.display = "none";
+    editingBookmark = null;
+}
