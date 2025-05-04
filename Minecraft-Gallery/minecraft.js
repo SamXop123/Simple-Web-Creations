@@ -10,5 +10,15 @@ images.forEach((img) => {
         otherImg.classList.remove("zoomed");
       }
     });
+
+    if (img.classList.contains("zoomed")) {
+      setTimeout(() => {
+        img.scrollIntoView({
+          behavior: "smooth",
+          block: "center",
+          inline: "center",
+        });
+      }, 100);
+    }
   });
 });
