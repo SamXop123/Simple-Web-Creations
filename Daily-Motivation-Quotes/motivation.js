@@ -50,3 +50,10 @@ function createParticles() {
     }
 }
 
+window.onload = () => {
+    displayDate();
+    const dailyQuote = getDailyQuote();
+    document.getElementById('quote').innerText = `"${dailyQuote.text}"`;
+    document.getElementById('author').innerText = `— ${dailyQuote.author}`;
+    createParticles();
+};
