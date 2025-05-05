@@ -21,3 +21,17 @@ const quotes = [
     { text: "The journey of a thousand miles begins with one step.", author: "Lao Tzu" }
 ];
 
+// This selects a quote based on the day of the year for daily rotation using Math Library
+function getDailyQuote() {
+    const today = new Date();
+    const dayOfYear = Math.floor((today - new Date(today.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+    const quoteIndex = dayOfYear % quotes.length;
+    return quotes[quoteIndex];
+}
+
+function displayDate() {
+    const today = new Date();
+    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    document.getElementById('currentDate').innerText = today.toLocaleDateString('en-US', options);
+}
+
