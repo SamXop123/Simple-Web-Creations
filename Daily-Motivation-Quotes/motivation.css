@@ -24,3 +24,29 @@ body {
     animation: fadeIn 1s ease-in-out;
 }
 
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.quote {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.author {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #666;
+    margin-top: 10px;
+}
+
+.date {
+    font-size: 1rem;
+    color: #888;
+    margin-bottom: 30px;
+}
+
