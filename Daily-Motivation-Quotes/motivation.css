@@ -69,3 +69,18 @@ body {
     50% { opacity: 0.3; }
     100% { transform: translateY(-100vh); opacity: 0; }
 }
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .quote {
+        font-size: 1.4rem;
+    }
+
+    .author {
+        font-size: 1rem;
+    }
+}
