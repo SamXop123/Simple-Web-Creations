@@ -9,6 +9,22 @@ body {
     cursor: none;
 }
 
+.cursor {
+    position: fixed;
+    pointer-events: none;
+    z-index: 9999;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #00ffcc;
+    transition: transform 0.1s ease, background-color 0.3s ease, border 0.3s ease, box-shadow 0.3s ease, width 0.3s ease, height 0.3s ease;
+}
+
+.cursor.grow {
+    transform: scale(1.5);
+    background-color: rgba(0, 255, 204, 0.2);
+}
+
 .container {
     padding: 50px;
     text-align: center;
