@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal Portfolio | Sameer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="S.png" rel="icon">
+</head>
+
+<body>
+    <header class="nav" id="nav-bar">
+        <div class="nav-head">Portfolio</div>
+        <nav class="nav-links">
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#skills">Skills</a>
+            <a href="#socials">Socials</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main class="container" id="about">
+        <section class="main">
+            <div class="box" id="box1">
+                <pre><code class="language-js">
+    const Sameer = {
+
+        name: "Sameer Prajapati",
+        aliases: ["SamXop", "Dot_NotSam"],
+        university: "VIT",
+        degree: "B.Tech in Computer Science",
+        hobbies: ["Piano", "Photography", "Gaming", "Football"],
+        status: "Learning & Building Cool Stuff"
+        
+    };
+                </code></pre>
+            </div>
+            <div class="box" id="box2">
+                <pre><code>
+    let skills = {
+
+        programmingLanguages: ["Python", "Java", "C++", "C"],
+
+        webDevelopment: {
+            frontend: ["HTML", "CSS", "JavaScript"],
+            backend: ["Flask", "Node.js (learning)"]
+        },
+
+        tools: ["Github", "VS Code", "Pycharm", "Chrome DevTools"],
+
+        creativity: ["Photoshop", "Premiere Pro", "Figma", "Canva"],
+
+        miscellaneous: ["Windows", "Jinja", "Markdown", "Postman"]
+
+    };
+                </code></pre>
+            </div>
+        </section>
+        <h1 class="main-title">hi! it's <span class="main-autotype"></span></h1>
+        <!-- <img src="arrow.gif" alt="scroll down arrow" class="arrow">
+        <img src="red-line.png" alt="decorative line" class="red-line">
+        <p class="let">let📈</p> -->
+    </main>
+    
+
+    <section class="container" id="work">
+        <h2 class="section-title">Work</h2>
+        <div class="work-grid">
+            <div class="work-item">
+                <a href="https://tools-io.vercel.app" target="_blank" rel="noopener noreferrer" class="work-link">
+                    <h3>tools.io</h3>
+                    <code>
+                        /* Welcome to Tools.io, your ultimate destination for innovative tools 
+                        and entertaining games. This project combines functionality, 
+                        creativity, and fun, offering a versatile platform for various needs. */
+                    </code><br>
+                    <button class="repo-button"
+                        onclick="window.open('https://github.com/samxop123/tools.io', '_blank'); event.stopPropagation();">
+                        View Repository
+                    </button>
+                </a>
+            </div>
+
+            <div class="work-item">
+                <a href="https://bedwarsify.vercel.app/" target="_blank" rel="noopener noreferrer" class="work-link">
+                    <h3>Bedwarsify</h3>
+                    <code>
+                        /* Bedwarsify is a web app dedicated to strategies and tips for
+                        Minecraft Bedwars. It includes video guides, tutorials, and an
+                        interactive map where users can explore different strategies. */
+                    </code><br>
+                    <button class="repo-button"
+                        onclick="window.open('https://github.com/samxop123/bedwarsify', '_blank'); event.stopPropagation();">
+                        View Repository
+                    </button>
+                </a>
+            </div>
+
+            <div class="work-item">
+                <a href="https://samxop123.github.io/Portfolio/" target="_blank" rel="noopener noreferrer"
+                    class="work-link">
+                    <h3>Portfolio</h3>
+                    <code>
+                        /* 
+                        Personal Portfolio crafted with style! 
+                        Officially the main portfolio of Sameer! 
+                        */
+                    </code><br>
+                    <button class="repo-button"
+                        onclick="window.open('https://github.com/samxop123/Portfolio', '_blank'); event.stopPropagation();">
+                        View Repository
+                    </button>
+                </a>
+            </div>
+
+            <div class="work-item">
+                <a href="https://github.com/SamXop123/Simple-Web-Creations" target="_blank" rel="noopener noreferrer"
+                    class="work-link">
+                    <h3>Simple Web Creations</h3>
+                    <code>
+                        /* 
+                        A vibrant collection of basic yet creative webpages built with HTML and CSS! 
+                        Each project here represents a fun and creative idea brought to life through code.
+                        It's all about starting small and building awesome things step by step.
+                        */
+                    </code><br>
+                    <button class="repo-button"
+                        onclick="window.open('https://github.com/SamXop123/Simple-Web-Creations', '_blank'); event.stopPropagation();">
+                        View Repository
+                    </button>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="container" id="certificates">
+        <h2 class="section-title">Certificates</h2>
+        <div class="certificate-grid">
+            <div class="certificate-item" data-logo="freecodecamp.png">
+                <a href="https://www.freecodecamp.org/certification/SamXop/responsive-web-design" target="_blank" rel="noopener noreferrer" class="certificate-link">
+                    <h3>Responsive Web Design</h3>
+                    <code>Responsive Web Design by freeCodeCamp is a hands-on course that teaches HTML, CSS, and modern design principles. It covers building responsive websites that adapt seamlessly to different screen sizes and devices.<br><br>Issued by: freeCodeCamp</code>
+                    <button class="certificate-button" onclick="window.open('https://www.freecodecamp.org/certification/SamXop/responsive-web-design', '_blank'); event.stopPropagation();">
+                        View Certificate
+                    </button>
+                </a>
+            </div>
+    
+            <div class="certificate-item" data-logo="deeplearningai.png">
+                <a href="https://www.coursera.org/account/accomplishments/certificate/5NXV3F3BVJOW" target="_blank" rel="noopener noreferrer" class="certificate-link">
+                    <h3>Artificial Intelligence</h3>
+                    <code>AI for Everyone by DeepLearning.AI is a non-technical course that explains how AI can be used in business and everyday life. It focuses on AI strategy, workflow, and ethical considerations for decision-makers and professionals.<br><br>Issued by: DeepLearning.ai</code>
+                    <button class="certificate-button" onclick="window.open('https://www.coursera.org/account/accomplishments/certificate/5NXV3F3BVJOW', '_blank'); event.stopPropagation();">
+                        View Certificate
+                    </button>
+                </a>
+            </div>
+    
+            <div class="certificate-item" data-logo="postman1.png">
+                <a href="https://badgr.com/public/assertions/Bwc5_uoTTHWiHcsU3F0P4A?identity__email=sameerprajapati066@gmail.com" target="_blank" rel="noopener noreferrer" class="certificate-link">
+                    <h3>Postman API Fundamentals Student Expert</h3>
+                    <code>Postman API Fundamentals Student Expert program provides hands-on experience with APIs using Postman. It covers concepts like requests, responses, collections, environments, and test automation to build and test APIs efficiently.<br><br>Issued by: Postman</code>
+                    <button class="certificate-button" onclick="window.open('https://badgr.com/public/assertions/Bwc5_uoTTHWiHcsU3F0P4A?identity__email=sameerprajapati066@gmail.com', '_blank'); event.stopPropagation();">
+                        View Certificate
+                    </button>
+                </a>
+            </div>
+
+            <div class="certificate-item" data-logo="matlab.png">
+                <a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=75796e0c-c4a7-413f-b818-50c663fdc7c8&" target="_blank" rel="noopener noreferrer" class="certificate-link">
+                    <h3>MATLAB Onramp</h3>
+                    <code>MATLAB Onramp is an interactive introductory course by MathWorks that teaches the basics of MATLAB programming. It covers core concepts like variables, arrays, visualization, and basic data analysis through hands-on exercises.<br><br>Issued by: MATLAB</code>
+                    <button class="certificate-button" onclick="window.open('https://matlabacademy.mathworks.com/progress/share/certificate.html?id=75796e0c-c4a7-413f-b818-50c663fdc7c8&', '_blank'); event.stopPropagation();">
+                        View Certificate
+                    </button>
+                </a>
+            </div>
+
+            <div class="certificate-item" data-logo="hackerrank.png">
+                <a href="https://www.hackerrank.com/certificates/748e6f66d32d" target="_blank" rel="noopener noreferrer" class="certificate-link">
+                    <h3>Hackerrank Python</h3>
+                    <code>The HackerRank Python certification validates foundational Python programming skills through real coding challenges. It covers data types, control flow, functions, and basic problem-solving using Python.<br><br>Issued by: HackerRank</code>
+                    <button class="certificate-button" onclick="window.open('https://www.hackerrank.com/certificates/748e6f66d32d', '_blank'); event.stopPropagation();">
+                        View Certificate
+                    </button>
+                </a>
+            </div>
+
+            <div class="certificate-item" data-logo="linkedin.webp">
+                <a href="https://www.linkedin.com/learning/certificates/5ac8f774bb93e5003ea6a49893f4d121517cb9c9d4588a20ca00989cc0b74ac2" target="_blank" rel="noopener noreferrer" class="certificate-link">
+                    <h3>What is Generative AI?</h3>
+                    <code>"What Is Generative AI?" by LinkedIn Learning introduces the fundamentals of generative AI and how it differs from traditional AI. It covers key concepts, real-world applications, and ethical considerations in creative and business contexts.<br><br>Issued by: LinkedIn</code>
+                    <button class="certificate-button" onclick="window.open('https://www.linkedin.com/learning/certificates/5ac8f774bb93e5003ea6a49893f4d121517cb9c9d4588a20ca00989cc0b74ac2', '_blank'); event.stopPropagation();">
+                        View Certificate
+                    </button>
+                </a>
+            </div>
+
+            <div class="certificate-item" data-logo="hackerrank.png">
+                <a href="https://www.hackerrank.com/certificates/iframe/4225afa59da5" target="_blank" rel="noopener noreferrer" class="certificate-link">
+                    <h3>Problem Solving Hackerrank</h3>
+                    <code>"Problem Solving" by HackerRank is a skills certification that tests algorithmic thinking and coding efficiency. It covers topics like data structures, loops, conditionals, and time complexity through real-world coding challenges.<br><br>Issued by: HackerRank</code>
+                    <button class="certificate-button" onclick="window.open('https://www.hackerrank.com/certificates/iframe/4225afa59da5', '_blank'); event.stopPropagation();">
+                        View Certificate
+                    </button>
+                </a>
+            </div>
+
+            <div class="certificate-item" data-logo="ibm.png">
+                <a href="https://coursera.org/share/3f1b9a04cee690047e682e39dc367553" target="_blank" rel="noopener noreferrer" class="certificate-link">
+                    <h3>Essentials of Software Engineering</h3>
+                    <code>Essentials of Software Engineering by IBM offers foundational knowledge in software development, covering the Software Development Lifecycle (SDLC), Agile methodologies, and basic programming concepts.<br><br>Issued by: IBM</code>
+                    <button class="certificate-button" onclick="window.open('https://coursera.org/share/3f1b9a04cee690047e682e39dc367553', '_blank'); event.stopPropagation();">
+                        View Certificate
+                    </button>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="container" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <h3>HTML</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 95%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>CSS</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>JavaScript</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 20%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>Python</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>Java</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 40%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>C++</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 55%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>Flask</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 40%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>Github</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>Jinja</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 50%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container" id="socials">
+        <h2 class="section-title">Find me at</h2>
+        <div class="social-grid">
+            <div class="social-item">
+                <a href="https://x.com/Dot_NotSam" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <h3>X</h3>
+                </a>
+            </div>
+
+            <div class="social-item">
+                <a href="https://github.com/samxop123" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <h3>GitHub</h3>
+                </a>
+            </div>
+
+            <div class="social-item">
+                <a href="https://linkedin.com/in/sameer-prajapati-vit" target="_blank" rel="noopener noreferrer"
+                    class="social-link">
+                    <h3>LinkedIn</h3>
+                </a>
+            </div>
+
+            <div class="social-item">
+                <a href="https://linktr.ee/DotNotSam" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <h3>Linktree</h3>
+                </a>
+            </div>
+
+            <div class="social-item">
+                <a href="https://www.hackerrank.com/profile/Dot_NotSam" target="_blank" rel="noopener noreferrer"
+                    class="social-link">
+                    <h3>Hackerrank</h3>
+                </a>
+            </div>
+
+            <div class="social-item">
+                <a href="https://discord.gg/dot_notsam" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <h3>Discord</h3>
+                </a>
+            </div>
+
+            <div class="social-item">
+                <a href="mailto:sameerprajapati066@gmail.com" target="_blank" rel="noopener noreferrer"
+                    class="social-link">
+                    <h3>Email</h3>
+                </a>
+            </div>
+
+            <div class="social-item">
+                <a href="https://samxop123.github.io/Portfolio/" target="_blank" rel="noopener noreferrer"
+                    class="social-link">
+                    <h3>Portfolio</h3>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <section class="container" id="contact">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-content">
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="number" name="age" placeholder="Enter your age" min="1" required>
+                <textarea name="message" placeholder="Enter your message" required></textarea>
+                <button type="submit" class="contact-button">Submit</button>
+            </form>
+            <div id="sent-message"></div>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2025 Sameer Prajapati. All rights reserved.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".main-autotype", {
+            strings: ["Sameer.", "Dot_NotSam.", "SamXop123."],
+            typeSpeed: 100,
+            backSpeed: 50,
+            loop: true,
+        });
+    </script>
+</body>
+
+</html>
