@@ -19,3 +19,25 @@ h1 {
     margin-bottom: 30px;
 }
 
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cursor-btn {
+    padding: 15px;
+    background-color: #333;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cursor-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 255, 204, 0.5);
+}
