@@ -25,6 +25,17 @@ body {
     background-color: rgba(0, 255, 204, 0.2);
 }
 
+/* Cursor styling */
+.cursor-pointer { 
+    border: none; background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="%2300ffcc" d="M3 3l18 18-6-6-3 3-6-6 3-3-6-6z"/></svg>') no-repeat center; width: 24px; height: 24px; 
+}
+.cursor-text { 
+    border: none; background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="%2300ffcc" d="M10 4h4v16h-4z"/></svg>') no-repeat center; width: 24px; height: 24px; 
+}
+.cursor-crosshair { 
+    border: 1px solid #ff00ff; background: none; 
+}
+
 .container {
     padding: 50px;
     text-align: center;
