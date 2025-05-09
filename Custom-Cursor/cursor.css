@@ -157,6 +157,44 @@ body {
     height: 24px;
 }
 
+.cursor-spiral {
+    border: 2px dotted #00ccff;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.cursor-bubble {
+    border: 2px solid #99ffcc;
+    background: rgba(153, 255, 204, 0.3);
+    border-radius: 50%;
+}
+
+.cursor-wave {
+    animation: wave 1.5s infinite;
+}
+
+@keyframes wave {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
 
 
 
