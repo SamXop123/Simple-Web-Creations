@@ -17,4 +17,11 @@ buttons.forEach(button => {
         cursor.classList.add(cursorStyle);
     });
 
+    // Hover effect for buttons
+    button.addEventListener('mouseenter', () => {
+        cursor.classList.add('grow');
+    });
+    button.addEventListener('mouseleave', () => {
+        cursor.classList.remove('grow');
+    });
 });
