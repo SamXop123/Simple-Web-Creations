@@ -88,6 +88,76 @@ body {
     background: rgba(0, 255, 204, 0.3);
 }
 
+.cursor-pulse {
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.cursor-rainbow {
+    animation: rainbow 2s linear infinite;
+}
+
+@keyframes rainbow {
+    0% {
+        border-color: #ff0000;
+    }
+
+    20% {
+        border-color: #ff9900;
+    }
+
+    40% {
+        border-color: #33cc33;
+    }
+
+    60% {
+        border-color: #3399ff;
+    }
+
+    80% {
+        border-color: #cc33cc;
+    }
+
+    100% {
+        border-color: #ff0000;
+    }
+}
+
+.cursor-dot {
+    width: 10px;
+    height: 10px;
+    background: #ff3333;
+    border: none;
+}
+
+.cursor-tri {
+    border: none;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="%23ff66cc" d="M12 2l10 20H2z"/></svg>') no-repeat center;
+    width: 24px;
+    height: 24px;
+}
+
+.cursor-plus {
+    border: none;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="%2366ff66" d="M12 4v16m-8-8h16"/></svg>') no-repeat center;
+    width: 24px;
+    height: 24px;
+}
+
+
 
 
 .container {
