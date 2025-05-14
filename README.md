@@ -4,6 +4,16 @@ Welcome to my collection of basic webpages! This repository is all about learnin
 Use the following link to navigate to different webpages! <br>
 https://samxop123.github.io/Simple-Web-Creations/{folder_name}/{html_template}
 
+#### List of a few webpages inside this Repo -
+- [Netflix Clone](https://samxop123.github.io/Simple-Web-Creations/Netflix-Clone/index.html)
+- [Insta Profile Page](https://samxop123.github.io/Simple-Web-Creations/Instagram-Profile-Page/insta.html)
+- [My Portfolio](https://samxop123.github.io/Simple-Web-Creations/Personal-Portfolio/index.html)
+- [TicTacToe](https://samxop123.github.io/Simple-Web-Creations/Tic-Tac-toe/index.html)
+- [Minecraft Gallery](https://samxop123.github.io/Simple-Web-Creations/Minecraft-Gallery/minecraft.html)
+- [Custom Cursors](https://samxop123.github.io/Simple-Web-Creations/Custom-Cursor/cursor.html)
+- [Pokemon Card](https://samxop123.github.io/Simple-Web-Creations/Pokemon-Card/Mewtwo/mewtwo.html)
+- [Daily Motivation](https://samxop123.github.io/Simple-Web-Creations/Daily-Motivation-Quotes/motivation.html)
+  
 <!-- ## 🎨 What's Inside?
 
 - 🇮🇳 **Indian Flag**: A simple representation of the Indian flag using only HTML and CSS.  
