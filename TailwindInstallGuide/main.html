@@ -34,9 +34,29 @@ npx tailwindcss init</code></pre>
                 <pre><code>content: ["*.html"],</code></pre>
             </div>
 
+            <div class="step">
+                <h2>Step 3: Create Input CSS File</h2>
+                <p>Create a file named <code>src/input.css</code> and add the following Tailwind directives.</p>
+                <pre><code>@tailwind base;
+@tailwind components;
+@tailwind utilities;</code></pre>
+            </div>
+
+            <div class="step">
+                <h2>Step 4: Link Output CSS</h2>
+                <p>Include the generated <code>src/output.css</code> file in your HTML file's head section.</p>
+            </div>
+
+            <div class="step">
+                <h2>Step 5: Build and Watch</h2>
+                <p>Run the Tailwind CLI to process your CSS and watch for changes.</p>
+                <pre><code>npx tailwindcss -i ./src/input.css -o ./src/output.css --watch</code></pre>
+            </div>
+        </section>
+
     </main>
 
-
+    
     <script src="script.js"></script>
      
 </body>
