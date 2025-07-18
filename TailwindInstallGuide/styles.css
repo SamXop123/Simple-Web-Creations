@@ -46,3 +46,30 @@ main {
     margin: 2rem auto;
     padding: 0 1.5rem;
 }
+
+.step {
+    background: #2d3748;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.step:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.step h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 0.75rem;
+}
+
+.step p,
+.step pre {
+    font-size: 1rem;
+    color: var(--text-light);
+    margin-bottom: 0.75rem;
+}
