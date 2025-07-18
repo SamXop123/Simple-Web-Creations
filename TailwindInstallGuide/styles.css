@@ -73,3 +73,28 @@ main {
     color: var(--text-light);
     margin-bottom: 0.75rem;
 }
+
+pre {
+    background: #1a202c;
+    padding: 1rem;
+    border-radius: 6px;
+    overflow-x: auto;
+}
+
+code {
+    font-family: 'Fira Code', monospace;
+    color: var(--primary-color);
+}
+
+.download-section {
+    text-align: center;
+    margin: 2.5rem 0;
+}
+
+.download-section h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--text-light);
+    margin-bottom: 1rem;
+}
+
