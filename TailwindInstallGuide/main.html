@@ -13,6 +13,30 @@
         <p>A guide to setting up Tailwind CSS version 3!</p>
     </header>
 
+    <main>
+        <section class="steps">
+            <div class="step">
+                <h2>Step 0: Initialize Your Project</h2>
+                <p>Start by initializing a new Node.js project in your working directory.</p>
+                <pre><code>npm init -y</code></pre>
+            </div>
+
+            <div class="step">
+                <h2>Step 1: Install Tailwind CSS</h2>
+                <p>Run the following commands to install Tailwind CSS and initialize its configuration.</p>
+                <pre><code>npm install -D tailwindcss@3
+npx tailwindcss init</code></pre>
+            </div>
+
+            <div class="step">
+                <h2>Step 2: Configure tailwind.config.js</h2>
+                <p>Update your <code>tailwind.config.js</code> file to include HTML files in the content array.</p>
+                <pre><code>content: ["*.html"],</code></pre>
+            </div>
+
+    </main>
+
+
     <script src="script.js"></script>
      
 </body>
