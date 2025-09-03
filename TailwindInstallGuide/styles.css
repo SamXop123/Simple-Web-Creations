@@ -127,3 +127,17 @@ footer p {
     color: var(--text-light);
     opacity: 0.8;
 }
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .step h2 {
+        font-size: 1.25rem;
+    }
+
+    .download-section h2 {
+        font-size: 1.5rem;
+    }
+}
