@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --nebula-purple: #2d1b69;
+    --cosmic-blue: #11998e;
+    --deep-space: #0a0a2e;
+    --dark-space: #0a0a2e;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: var(--dark-space);
+    color: var(--light-text);
+    overflow-x: hidden;
+    line-height: 1.6;
+}
+
+.scroll-container {
+    width: 100%;
+}
+
