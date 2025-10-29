@@ -7,8 +7,14 @@
 :root {
     --nebula-purple: #2d1b69;
     --cosmic-blue: #11998e;
+    --star-pink: #ee4b6a;
     --deep-space: #0a0a2e;
+    --galaxy-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --nebula-gradient: linear-gradient(135deg, #2d1b69 0%, #11998e 50%, #ee4b6a 100%);
+    --star-gradient: linear-gradient(45deg, #ffffff 0%, #f0f8ff 50%, #e6e6fa 100%);
     --dark-space: #0a0a2e;
+    --light-text: #ffffff;
+    --accent-color: #ee4b6a;
 }
 
 html {
@@ -50,10 +56,26 @@ body {
     animation: nebulaFlow 20s ease infinite;
 }
 
+@keyframes nebulaFlow {
+    0%, 100% { opacity: 0.7; transform: scale(1); }
+    50% { opacity: 0.5; transform: scale(1.02); }
+}
+
 .intro-content {
     text-align: center;
     z-index: 1;
     animation: fadeInUp 1.5s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .title {
@@ -74,6 +96,12 @@ body {
     opacity: 0.9;
     animation: fadeIn 2s ease-out 0.5s backwards;
 }
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 0.9; }
+}
+
 .scroll-indicator p {
     font-size: 0.9rem;
     letter-spacing: 2px;
@@ -111,3 +139,18 @@ body {
     position: relative;
     z-index: 2;
 }
+
+.nebula-glow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 80%;
+    background: radial-gradient(circle, rgba(238, 75, 106, 0.1) 0%, rgba(17, 153, 142, 0.1) 30%, transparent 70%);
+    border-radius: 50%;
+    filter: blur(20px);
+    animation: nebulaPulse 6s ease-in-out infinite;
+    z-index: 1;
+}
+
