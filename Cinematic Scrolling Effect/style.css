@@ -74,3 +74,40 @@ body {
     opacity: 0.9;
     animation: fadeIn 2s ease-out 0.5s backwards;
 }
+.scroll-indicator p {
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+
+.video-section {
+    min-height: 300vh;
+    position: relative;
+    background: linear-gradient(180deg, #2d1b69 0%, #0a0a2e 100%);
+}
+
+.video-wrapper {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 2rem;
+}
+
+.scroll-video {
+    width: 40%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow:
+        0 20px 40px rgba(0, 0, 0, 0.6),
+        0 0 0 1px rgba(238, 75, 106, 0.2);
+    transition: all 0.3s ease;
+    animation: videoReveal 1s ease-out;
+    position: relative;
+    z-index: 2;
+}
