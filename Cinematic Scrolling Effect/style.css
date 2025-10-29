@@ -27,3 +27,50 @@ body {
     width: 100%;
 }
 
+.intro-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--nebula-gradient);
+    position: relative;
+    overflow: hidden;
+}
+
+.intro-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:
+        radial-gradient(circle at 20% 50%, rgba(102, 126, 234, 0.3) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(238, 75, 106, 0.3) 0%, transparent 50%);
+    animation: nebulaFlow 20s ease infinite;
+}
+
+.intro-content {
+    text-align: center;
+    z-index: 1;
+    animation: fadeInUp 1.5s ease-out;
+}
+
+.title {
+    font-size: clamp(3rem, 8vw, 6rem);
+    font-weight: 700;
+    margin-bottom: 1rem;
+    background: var(--star-gradient);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: #fff; /* Fallback for browsers that don't support background-clip */
+}
+
+.subtitle {
+    font-size: clamp(1.2rem, 3vw, 1.8rem);
+    margin-bottom: 3rem;
+    opacity: 0.9;
+    animation: fadeIn 2s ease-out 0.5s backwards;
+}
