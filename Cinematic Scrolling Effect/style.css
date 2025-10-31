@@ -288,3 +288,28 @@ body {
     animation: cosmicPulse 8s ease-in-out infinite;
 }
 
+.video-frame::before {
+    width: 150px;
+    height: 150px;
+    top: -75px;
+    left: -75px;
+}
+
+.video-frame::after {
+    width: 200px;
+    height: 200px;
+    bottom: -100px;
+    right: -100px;
+    animation-delay: 4s;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at center, transparent 20%, rgba(10, 10, 46, 0.6) 100%);
+    pointer-events: none;
+    z-index: 3;
+}
