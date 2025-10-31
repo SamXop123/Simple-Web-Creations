@@ -102,6 +102,62 @@ body {
     to { opacity: 0.9; }
 }
 
+.stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.stars::before,
+.stars::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background: white;
+    border-radius: 50%;
+    box-shadow:
+        50px 50px white,
+        150px 100px white,
+        250px 150px white,
+        350px 200px white,
+        450px 250px white,
+        550px 300px white,
+        650px 350px white,
+        750px 400px white,
+        850px 450px white,
+        950px 500px white,
+        100px 200px white,
+        200px 250px white,
+        300px 300px white,
+        400px 350px white,
+        500px 400px white,
+        600px 450px white,
+        700px 500px white,
+        800px 550px white,
+        900px 600px white,
+        1000px 650px white;
+    animation: twinkle 8s linear infinite;
+}
+
+.stars::after {
+    animation: twinkle 12s linear infinite reverse;
+}
+
+@keyframes twinkle {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+}
+
+.scroll-indicator {
+    margin-top: 4rem;
+    animation: fadeIn 2s ease-out 1s backwards;
+}
+
 .scroll-indicator p {
     font-size: 0.9rem;
     letter-spacing: 2px;
