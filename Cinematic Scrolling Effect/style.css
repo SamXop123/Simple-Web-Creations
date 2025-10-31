@@ -242,3 +242,27 @@ body {
     z-index: 1;
 }
 
+.video-frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(40% + 40px);
+    height: calc(60% + 40px);
+    border: 2px solid rgba(238, 75, 106, 0.3);
+    border-radius: 25px;
+    pointer-events: none;
+    z-index: 1;
+    background: linear-gradient(45deg, transparent 30%, rgba(238, 75, 106, 0.1) 50%, transparent 70%);
+}
+
+.video-frame::before,
+.video-frame::after {
+    content: '';
+    position: absolute;
+    background: var(--nebula-gradient);
+    opacity: 0.2;
+    border-radius: 50%;
+    animation: cosmicPulse 8s ease-in-out infinite;
+}
+
