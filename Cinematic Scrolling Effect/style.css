@@ -313,3 +313,30 @@ body {
     pointer-events: none;
     z-index: 3;
 }
+
+.content-overlay {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 4;
+    animation: fadeInUp 1.5s ease-out 0.5s backwards;
+}
+
+.content-overlay h2 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    margin-bottom: 1rem;
+    background: var(--nebula-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+}
+
+.content-overlay p {
+    font-size: clamp(1rem, 2vw, 1.4rem);
+    opacity: 0.8;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
