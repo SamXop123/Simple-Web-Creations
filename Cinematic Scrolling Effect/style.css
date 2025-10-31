@@ -303,6 +303,17 @@ body {
     animation-delay: 4s;
 }
 
+@keyframes cosmicPulse {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 0.15;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 0.25;
+    }
+}
+
 .video-overlay {
     position: absolute;
     top: 0;
