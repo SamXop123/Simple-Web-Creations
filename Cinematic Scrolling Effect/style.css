@@ -361,3 +361,8 @@ body {
     position: relative;
 }
 
+.description-content {
+    max-width: 1200px;
+    text-align: center;
+}
+
