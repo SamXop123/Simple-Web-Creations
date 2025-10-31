@@ -158,6 +158,27 @@ body {
     animation: fadeIn 2s ease-out 1s backwards;
 }
 
+.mouse {
+    width: 30px;
+    height: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    margin: 0 auto 1rem;
+    position: relative;
+}
+
+.wheel {
+    width: 4px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 2px;
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: scroll 2s ease-out infinite;
+}
+
 .scroll-indicator p {
     font-size: 0.9rem;
     letter-spacing: 2px;
