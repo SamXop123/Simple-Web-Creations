@@ -459,6 +459,29 @@ body {
     line-height: 1.6;
 }
 
+.footer-section {
+    min-height: 48vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #2d1b69 0%, #0a0a2e 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:
+        radial-gradient(circle at 30% 50%, rgba(102, 126, 234, 0.08) 0%, transparent 50%),
+        radial-gradient(circle at 70% 50%, rgba(17, 153, 142, 0.08) 0%, transparent 50%);
+    animation: nebulaFlow 15s ease infinite;
+}
+
 
 @supports (animation-timeline: scroll()) {
     .description-section,
