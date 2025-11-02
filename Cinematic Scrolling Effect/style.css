@@ -504,6 +504,27 @@ body {
 }
 
 
+@media (max-width: 480px) {
+    .scroll-video {
+        width: 80%;
+        height: 40%;
+    }
+
+    .video-frame {
+        width: calc(80% + 30px);
+        height: calc(40% + 30px);
+    }
+
+    .features {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .feature-card {
+        padding: 2rem 1.5rem;
+    }
+}
+
 @supports (animation-timeline: scroll()) {
     .description-section,
     .footer-section {
