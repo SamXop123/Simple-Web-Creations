@@ -482,6 +482,27 @@ body {
     animation: nebulaFlow 15s ease infinite;
 }
 
+.footer-content {
+    text-align: center;
+    z-index: 1;
+    padding: 2rem;
+}
+
+.footer-content h3 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin-bottom: 1rem;
+    background: var(--nebula-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.footer-content > p {
+    font-size: clamp(1rem, 2vw, 1.3rem);
+    opacity: 0.8;
+    margin-bottom: 2rem;
+}
+
 
 @supports (animation-timeline: scroll()) {
     .description-section,
