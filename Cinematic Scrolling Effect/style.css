@@ -541,6 +541,10 @@ body {
     box-shadow: 0 10px 20px rgba(238, 75, 106, 0.2);
 }
 
+.social-link:hover::before {
+    left: 0;
+}
+
 
 @media (max-width: 480px) {
     .scroll-video {
