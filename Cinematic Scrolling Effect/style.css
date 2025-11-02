@@ -545,6 +545,32 @@ body {
     left: 0;
 }
 
+@media (max-width: 768px) {
+    .scroll-video {
+        width: 60%;
+        height: 50%;
+    }
+
+    .video-frame {
+        width: calc(60% + 40px);
+        height: calc(50% + 40px);
+    }
+
+    .nebula-glow {
+        width: 80%;
+        height: 60%;
+    }
+
+    .features {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .social-links {
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
 @media (max-width: 480px) {
     .scroll-video {
