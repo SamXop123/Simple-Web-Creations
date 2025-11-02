@@ -523,6 +523,24 @@ body {
     overflow: hidden;
 }
 
+.social-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: var(--nebula-gradient);
+    transition: left 0.3s ease;
+    z-index: -1;
+}
+
+.social-link:hover {
+    border-color: transparent;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(238, 75, 106, 0.2);
+}
+
 
 @media (max-width: 480px) {
     .scroll-video {
