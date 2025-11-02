@@ -366,3 +366,28 @@ body {
     text-align: center;
 }
 
+.description-content h2 {
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    margin-bottom: 1.5rem;
+    background: var(--nebula-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.description-content > p {
+    font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+    margin-bottom: 4rem;
+    opacity: 0.8;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
