@@ -424,3 +424,38 @@ body {
     transform: scaleX(1);
 }
 
+.feature-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+.feature-card:nth-child(2) .feature-icon {
+    animation-delay: 0.5s;
+}
+
+.feature-card:nth-child(3) .feature-icon {
+    animation-delay: 1s;
+}
+
+.feature-card:nth-child(4) .feature-icon {
+    animation-delay: 1.5s;
+}
+
+.feature-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+    color: #fff;
+}
+
+.feature-card p {
+    opacity: 0.7;
+    line-height: 1.6;
+}
+
