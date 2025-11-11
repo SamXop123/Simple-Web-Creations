@@ -83,3 +83,20 @@ img:hover {
   transform: scale(1.1);
   box-shadow: 0 0.5rem 1rem -0.25rem var(--clr-primary-900);
 }
+.slider {
+  overflow: hidden;
+  -webkit-mask: linear-gradient(
+    90deg,
+    transparent,
+    var(--clr-primary-100) 20%,
+    var(--clr-primary-100) 80%,
+    transparent
+  );
+  mask: linear-gradient(
+    90deg,
+    transparent,
+    var(--clr-primary-100) 20%,
+    var(--clr-primary-100) 80%,
+    transparent
+  );
+}
