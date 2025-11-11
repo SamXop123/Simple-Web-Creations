@@ -1,0 +1,27 @@
+:root {
+  --clr-primary-100: #e6f6ff;
+  --clr-primary-700: #005499;
+  --clr-primary-800: #001833;
+  --clr-primary-900: #00050a;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100%;
+  display: grid;
+  place-items: center;
+  background: var(--clr-primary-800);
+  font-family: system-ui;
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--clr-primary-100);
+  text-align: center;
+  filter: drop-shadow(0 0.5rem 1rem var(--clr-primary-700));
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
