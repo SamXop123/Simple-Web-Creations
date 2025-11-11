@@ -44,3 +44,21 @@ h2 {
   place-items: center;
   margin-bottom: 4rem;
 }
+.slide-track {
+  display: flex;
+  width: calc(300px * 15);
+  animation: scroll 60s linear infinite;
+}
+.slide-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-300px * 7.5));
+  }
+}
+
