@@ -58,7 +58,20 @@ body {
     align-items: center;
     min-height: auto;
     margin-top: 30px;
+    
+}
+
+.container-cust {
     margin-right: 75px;
+}
+
+#certificates, #skills, #socials {
+    margin-bottom: 250px;
+}
+
+#contact {
+    margin-bottom: 100px;
+    margin-top: -70px;
 }
 
 .main {
