@@ -24,8 +24,9 @@
 
     <main class="container" id="about">
         <section class="main">
-            <div class="box" id="box1">
-                <pre><code class="language-js">
+            <div class="main-left">
+                <div class="box" id="box1">
+                    <pre><code class="language-js">
     const Sameer = {
 
         name: "Sameer Prajapati",
@@ -39,12 +40,28 @@
         hobbies: ["Piano", "Photography", "Gaming", "Football"],
 
         status: "Learning & Building Cool Stuff"
-        
+
     };
-                </code></pre>
+                    </code></pre>
+                </div>
+
+                <!-- hero moved directly under box1 and aligned so logo sits to the left of title -->
+                <section class="hero-inline" aria-labelledby="hero-title">
+                    <img src="S.png" alt="Sameer profile" class="profile-img-small">
+                    <div class="hero-left-inline">
+                        <h1 id="hero-title" class="main-title">hi! it's <span class="main-autotype"></span></h1>
+                        <p class="hero-sub">b.tech cs student • building web apps & tools</p>
+                        <!-- <div class="hero-ctas">
+                            <a href="resume.pdf" class="repo-button" download aria-label="Download resume">Download Resume</a>
+                            <a href="#contact" class="repo-button" aria-label="Contact Sameer">Contact</a>
+                        </div> -->
+                    </div>
+                </section>
             </div>
-            <div class="box" id="box2">
-                <pre><code>
+
+            <div class="main-right">
+                <div class="box" id="box2">
+                    <pre><code>
     let skills = {
 
         programmingLanguages: ["Python", "Java", "C++", "C"],
@@ -61,13 +78,11 @@
         miscellaneous: ["Windows", "Jinja", "Markdown", "Postman"]
 
     };
-                </code></pre>
+                    </code></pre>
+                </div>
             </div>
         </section>
-        <h1 class="main-title">hi! it's <span class="main-autotype"></span></h1>
-        <!-- <img src="arrow.gif" alt="scroll down arrow" class="arrow">
-        <img src="red-line.png" alt="decorative line" class="red-line">
-        <p class="let">let📈</p> -->
+        <!-- decorative images removed (keeps original comments available) -->
     </main>
     
 
