@@ -56,15 +56,18 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: auto;
+    margin-top: 30px;
+    margin-right: 75px;
 }
 
 .main {
-    margin-top: 80px;
+    margin-top: 5px;
     display: flex;
-    gap: 170px;
+    gap: 60px;
     justify-content: center;
     width: 100%;
+    align-items: flex-start;
 }
 
 .box {
@@ -75,7 +78,7 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 1rem;
     color: #d9d698;
-    width: 35%;
+    width: 40%;
     transition: transform 0.3s;
 }
 
@@ -84,29 +87,31 @@ body {
 }
 
 #box1 { 
-    width: 500px; 
-    height: 240px; 
+    width: 515px; 
+    height: 280px; 
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 14px;
+    font-size: 15px;
 }
 #box2 { 
     padding-top: 30px; 
-    width: 530px; 
+    width: 575px; 
     height: 400px; 
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .main-title {
     color: rgb(176, 176, 176);
     font-size: 40px;
-    position: relative;
-    bottom: 140px;
-    right: 360px;
+    /* remove absolute positioning so it flows naturally */
+    position: static;
+    bottom: auto;
+    right: auto;
+    margin: 0 0 8px 0;
 }
 
 .main-autotype { color: white; }
@@ -199,12 +204,14 @@ body {
     background: #d9d698;
     color: #1e1e1e;
     border: none;
-    padding: 8px 15px;
+    padding: 4px 6px;
     border-radius: 5px;
     font-family: 'JetBrains Mono', 'Inconsolata', 'Consola Mono', monospace;
-    font-size: 14px;
+    font-size: 10px;
     cursor: pointer;
     transition: background 0.3s, transform 0.2s;
+    text-decoration: none;
+    margin-top: 5px;
 }
 
 .repo-button:hover {
@@ -548,6 +555,75 @@ footer {
         width: 90%;
         padding: 15px;
     }
+}
+
+
+/* .repo-button {
+    margin-right: 10px;
+    margin-top: 2px;
+    padding: 5px 10px;
+} */
+
+.main-left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 520px;
+}
+
+.main-right {
+    width: 530px;
+}
+
+/* inline hero: logo to the left of the autotype title */
+.hero-inline {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: rgba(255,255,255,0.03);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.profile-img-small {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgba(217,214,152,0.12);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.45);
+    flex-shrink: 0;
+}
+
+.hero-left-inline .main-title {
+    margin: 0;
+    font-size: 28px;
+    color: rgb(176,176,176);
+}
+
+.hero-left-inline .hero-sub {
+    margin: 6px 0 0 0;
+    font-size: 13px;
+}
+
+/* responsive adjustments: stack left & right and shrink hero logo */
+@media (max-width: 880px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .main-left, .main-right {
+        width: 90%;
+    }
+    .profile-img-small { width: 56px; height: 56px; }
+    .hero-left-inline .main-title { font-size: 24px; }
+}
+
+@media (max-width: 480px) {
+    .profile-img-small { width: 48px; height: 48px; }
+    .hero-inline { padding: 8px; gap: 8px; }
+    .hero-left-inline .main-title { font-size: 20px; }
 }
 
 
