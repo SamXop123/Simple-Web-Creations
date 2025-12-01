@@ -26,7 +26,6 @@ body {
   z-index: 0;
 }
 
-/* glass card */
 .card {
   position: relative;
   z-index: 1;
@@ -38,16 +37,15 @@ body {
   backdrop-filter: blur(18px);
   box-shadow: 0 18px 45px rgba(0, 0, 0, 0.6);
   text-align: center;
+  margin-bottom: 75px;
 }
 
-/* 404 icon */
 .icon {
   width: 90px;
   height: auto;
   margin-bottom: 1.5rem;
 }
 
-/* title + text */
 h1 {
   font-size: 1.9rem;
   letter-spacing: 0.04em;
