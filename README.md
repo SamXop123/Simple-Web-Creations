@@ -13,6 +13,7 @@ https://samxop123.github.io/Simple-Web-Creations/{folder_name}/{html_template}
 - [Custom Cursors](https://samxop123.github.io/Simple-Web-Creations/Custom-Cursor/cursor.html)
 - [Pokemon Card](https://samxop123.github.io/Simple-Web-Creations/Pokemon-Card/Mewtwo/mewtwo.html)
 - [Daily Motivation](https://samxop123.github.io/Simple-Web-Creations/Daily-Motivation-Quotes/motivation.html)
+- [Retro CRT Terminal](https://samxop123.github.io/Simple-Web-Creations/Retro-CRT-Terminal/index.html)
   
 <!-- ## 🎨 What's Inside?
 
