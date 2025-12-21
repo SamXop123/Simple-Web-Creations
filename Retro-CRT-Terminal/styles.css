@@ -1,0 +1,43 @@
+/* ========================================
+   Retro CRT Terminal Styles
+   ======================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1a1a2e 0%, #0f0f1a 100%);
+    font-family: 'VT323', monospace;
+    overflow: hidden;
+}
+
+.crt-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.crt {
+    position: relative;
+    width: 700px;
+    height: 500px;
+    background: #0a0a0a;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow:
+        0 0 10px rgba(0, 255, 0, 0.3),
+        0 0 30px rgba(0, 255, 0, 0.2),
+        0 0 60px rgba(0, 255, 0, 0.1),
+        inset 0 0 100px rgba(0, 0, 0, 0.9);
+}
+
