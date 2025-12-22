@@ -78,6 +78,33 @@ body {
     border-radius: 50% / 10%;
 }
 
+/* Scanlines Effect */
+.scanlines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: repeating-linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3) 1px,
+        transparent 1px,
+        transparent 2px
+    );
+    pointer-events: none;
+    z-index: 20;
+    animation: scanlines 0.1s linear infinite;
+}
+
+@keyframes scanlines {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0 4px;
+    }
+}
 
 /* Flicker Effect */
 .crt::after {
@@ -93,6 +120,29 @@ body {
     animation: flicker 0.15s infinite;
 }
 
+@keyframes flicker {
+    0% { opacity: 0.27; }
+    5% { opacity: 0.34; }
+    10% { opacity: 0.27; }
+    15% { opacity: 0.34; }
+    20% { opacity: 0.29; }
+    25% { opacity: 0.34; }
+    30% { opacity: 0.29; }
+    35% { opacity: 0.32; }
+    40% { opacity: 0.29; }
+    45% { opacity: 0.37; }
+    50% { opacity: 0.30; }
+    55% { opacity: 0.29; }
+    60% { opacity: 0.36; }
+    65% { opacity: 0.30; }
+    70% { opacity: 0.34; }
+    75% { opacity: 0.35; }
+    80% { opacity: 0.29; }
+    85% { opacity: 0.27; }
+    90% { opacity: 0.32; }
+    95% { opacity: 0.29; }
+    100% { opacity: 0.33; }
+}
 
 .terminal {
     position: relative;
@@ -108,5 +158,21 @@ body {
     margin-bottom: 20px;
     padding-bottom: 10px;
     border-bottom: 2px solid #00ff00;
+}
+
+.terminal-title,
+.terminal-date {
+    color: #00ff00;
+    font-size: 18px;
+    text-shadow:
+        0 0 5px #00ff00,
+        0 0 10px #00ff00,
+        0 0 20px #00ff00;
+}
+
+.terminal-body {
+    color: #00ff00;
+    font-size: 20px;
+    line-height: 1.6;
 }
 
