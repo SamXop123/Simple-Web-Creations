@@ -176,3 +176,47 @@ body {
     line-height: 1.6;
 }
 
+/* Type-on Animation for each line */
+.line {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid transparent;
+    width: 0;
+    text-shadow:
+        0 0 5px #00ff00,
+        0 0 10px #00ff00,
+        0 0 15px #00ff00;
+}
+
+/* animations for each line */
+.line-1 { animation: typing 0.8s steps(35) 0.5s forwards; }
+.line-2 { animation: typing 0.8s steps(40) 1.3s forwards; }
+.line-3 { animation: typing 0.8s steps(40) 2.1s forwards; }
+.line-4 { animation: typing 0.8s steps(40) 2.9s forwards; }
+.line-5 { animation: typing 0.8s steps(40) 3.7s forwards; }
+.line-6 { animation: typing 0.2s steps(5) 4.5s forwards; }
+.line-7 { animation: typing 0.8s steps(40) 4.7s forwards; }
+.line-8 { animation: typing 0.6s steps(35) 5.5s forwards; }
+.line-9 { animation: typing 0.2s steps(5) 6.1s forwards; }
+.line-10 { animation: typing 0.8s steps(40) 6.3s forwards; }
+.line-11 { animation: typing 0.8s steps(40) 7.1s forwards; }
+.line-12 { animation: typing 0.6s steps(30) 7.9s forwards; }
+.line-13 { animation: typing 0.2s steps(5) 8.5s forwards; }
+.line-14 { animation: typing 0.5s steps(15) 8.7s forwards; }
+.line-15 { animation: typing 0.6s steps(30) 9.2s forwards; }
+.line-16 { animation: typing 0.6s steps(30) 9.8s forwards; }
+.line-17 { animation: typing 0.6s steps(25) 10.4s forwards; }
+.line-18 { animation: typing 0.6s steps(30) 11s forwards; }
+.line-19 { animation: typing 0.2s steps(5) 11.6s forwards; }
+.line-20 { animation: typing 0.5s steps(15) 11.8s forwards, blink-cursor 0.8s step-end 12.3s infinite; }
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+/* Blinking cursor for last line */
+.line-20 {
+    border-right: 2px solid #00ff00;
+}
+
