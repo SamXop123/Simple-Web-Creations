@@ -289,3 +289,39 @@ body {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+/* Responsiveness */
+@media (max-width: 768px) {
+    .crt {
+        width: 95vw;
+        height: 70vh;
+        max-width: 500px;
+        max-height: 400px;
+    }
+
+    .terminal {
+        padding: 20px;
+    }
+
+    .terminal-body {
+        font-size: 14px;
+    }
+
+    .terminal-title,
+    .terminal-date {
+        font-size: 14px;
+    }
+
+    .crt-bezel {
+        border-width: 10px;
+    }
+
+    .crt-stand {
+        width: 150px;
+    }
+
+    .crt-stand::after {
+        width: 200px;
+        transform: translateX(-25px);
+    }
+}
+
